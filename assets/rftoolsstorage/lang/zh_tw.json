@@ -1,0 +1,54 @@
+{
+    "item.rftoolsstorage.storage_module0": "一階儲存模組",
+    "item.rftoolsstorage.storage_module1": "二階儲存模組",
+    "item.rftoolsstorage.storage_module2": "三階儲存模組",
+    "item.rftoolsstorage.storage_module3": "四階儲存模組",
+    "item.rftoolsstorage.storage_module6": "遠程儲存模組",
+    "item.rftoolsstorage.storage_module_tablet": "手持式儲存模組",
+    "item.rftoolsstorage.filter_module": "儲存過濾模組",
+    "item.rftoolsstorage.oredict_module": "礦物辭典模組",
+    "item.rftoolsstorage.generic_module": "泛型模組",
+    "item.rftoolsstorage.tablet_scanner": "平板電腦（檢測器）",
+    "item.rftoolsstorage.storage_control_module": "儲存控制模組",
+    "item.rftoolsstorage.dump_module": "清空模組",
+
+    "block.rftoolsstorage.modular_storage": "模組化儲存器",
+    "block.rftoolsstorage.remote_storage": "遠程儲存器",
+    "block.rftoolsstorage.storage_scanner": "儲存檢測器",
+
+    "_comment": "Creative Tabs",
+    "itemGroup.rftoolsstorage": "RF 工具丨儲存",
+
+    "_comment": "Messages",
+    "message.rftoolsstorage.shiftmessage": "<按住 Shift>",
+
+    "message.rftoolsstorage.crafting_manager.header": "尚未完成！合成管理器尚未完成！",
+    "message.rftoolsstorage.crafting_manager.gold": "功能尚未完善",
+
+    "message.rftoolsstorage.tablet_scanner.header": "可用於連接遠程 GUI 資訊的平板電腦",
+    "message.rftoolsstorage.tablet_scanner.gold": "平板電腦（儲存檢測器）：點擊右鍵檢測器，潛行 + 點擊右鍵平板電腦介面。",
+
+    "message.rftoolsstorage.storage_scanner.header": "這台機器將掃描附近所有的容器，並在一個清單中顯示出來。然後你可以從這些容器中搜尋和取出物品。",
+    "message.rftoolsstorage.storage_scanner.gold": "注能升級：降低功耗",
+
+    "message.rftoolsstorage.storage_control_module.header": "這個螢幕模組允許你透過儲存檢測器監控 9 個不同的物品，這個模組也可以與平板電腦結合，用於遠端存取儲存檢測器",
+    "message.rftoolsstorage.storage_control_module.gold": "潛行 + 點擊右鍵儲存檢測器，為這個儲存模組設置目標",
+    "message.rftoolsstorage.storage_control_module.uses": "耗能：",
+    "message.rftoolsstorage.storage_control_module.info": "儲存檢測器：",
+
+    "message.rftoolsstorage.dump_module.header": "一個螢幕模組，允許你把大量的物品輸出到連接的儲存檢測器中",
+    "message.rftoolsstorage.dump_module.gold": "潛行 + 點擊右鍵儲存檢測器，為這個儲存模組設置目標",
+    "message.rftoolsstorage.dump_module.uses": "耗能：",
+    "message.rftoolsstorage.dump_module.info": "儲存檢測器：",
+    
+    "message.rftoolsstorage.storage_module.header": "該儲存模組用於模組化儲存器",
+    "message.rftoolsstorage.storage_module.gold": "該模組支援遠程儲存器。連接到遠程儲存器的另一個儲存模組",
+    "message.rftoolsstorage.storage_module.info": "支援整組：",
+    "message.rftoolsstorage.storage_module.remoteid": "遠程 ID：",
+    "message.rftoolsstorage.storage_module.uuid": "UUID：",
+    "message.rftoolsstorage.storage_module.version": "版本：",
+    "message.rftoolsstorage.storage_module.items": "內容：",
+    "message.rftoolsstorage.storage_module.advanced": "高級：",
+
+    "message.rftoolsstorage.modular_storage.header": "這種模組化儲存器可以儲存大量的物品，並且可以方便地進行搜尋和過濾。你必須先插入一個儲存模組，才能開始使用它"
+  }

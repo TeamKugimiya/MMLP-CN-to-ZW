@@ -1,0 +1,72 @@
+{
+  "item.rftoolsbase.network_monitor": "RF 網路監視儀",
+  "item.rftoolsbase.teleport_probe": "傳送除錯儀",
+  "item.rftoolsbase.filter_module": "儲存過濾模組",
+  "item.rftoolsbase.developers_delight": "RF 工具維度說明書",
+  "item.rftoolsbase.shard_wand": "維度碎片杖",
+  "item.rftoolsbase.orphaning_card": "棄權卡",
+  "item.rftoolsbase.security_card": "安全卡",
+  "item.rftoolsbase.infused_diamond": "充能鑽石",
+  "item.rftoolsbase.infused_enderpearl": "蘊魔終界珍珠",
+  "item.rftoolsbase.smartwrench": "智慧扳手",
+  "item.rftoolsbase.smartwrench_select": "智慧扳手（選擇）",
+  "item.rftoolsbase.dimensionalshard": "維度碎片",
+  "item.rftoolsbase.machine_frame": "機器框架",
+  "item.rftoolsbase.machine_base": "機器基座",
+  "item.rftoolsbase.crafting_card": "合成卡",
+  "item.rftoolsbase.tablet": "平板電腦（空）",
+  "item.rftoolsbase.tablet_filled": "平板電腦（滿）",
+  "item.rftoolsbase.manual": "RF 工具指導手冊",
+
+  "block.rftoolsbase.machine_infuser": "機器注能機",
+  "block.rftoolsbase.security_manager": "權限管理器",
+  "block.rftoolsbase.dimensionalshard_overworld": "維度碎片礦",
+  "block.rftoolsbase.dimensionalshard_nether": "維度碎片礦",
+  "block.rftoolsbase.dimensionalshard_end": "維度碎片礦",
+  "block.rftoolsbase.information_screen": "資訊螢幕",
+  "_comment": "Creative Tabs",
+  "itemGroup.rftoolsbase": "RF 工具丨基礎",
+
+  "_comment": "Keys",
+  "key.categories.rftools": "RF 工具",
+  "key.debugDumpNBTItem": "匯出手持物品的 NBT",
+  "key.debugDumpNBTBlock": "匯出選方塊的 NBT",
+  "key.nextDestination": "輪換至下一個目標",
+  "key.prevDestination": "輪換至上一個目標",
+  
+  "_comment": "Messages",
+  "message.rftoolsbase.shiftmessage": "<按住 Shift>",
+
+  "message.rftoolsbase.crafting_card.header": "這個物品可以用於合成，它可以儲存合成表和輸出結果",
+  "message.rftoolsbase.crafting_card.info": "物品：",
+
+  "message.rftoolsbase.information_screen.header": "將其放在能量單元上以顯示有關該單元的資訊。用扳手點擊右鍵可以變更模式",
+  "message.rftoolsbase.information_screen.gold": "此方塊還可以顯示有關 RF/FE 的任意方塊的電量資訊",
+
+  "message.rftoolsbase.machine_infuser.header": "有了這台機器，你可以用維度碎片改進 RF 工具中的大多數機器",
+  "message.rftoolsbase.machine_infuser.gold": "注能升級：降低功耗",
+
+  "message.rftoolsbase.filter_module.header": "該過濾模組被用於各種情境中（XNet、儲存、建造機、合成機等），它可以使機器只接受某些物品",
+  "message.rftoolsbase.filter_module.gold": "潛行 + 點擊右鍵箱子，可根據箱子內容一鍵設置過濾，或者潛行 + 點擊右鍵一個方塊，將該方塊新增到過濾器",
+  "message.rftoolsbase.filter_module.info": "模式：",
+
+  "message.rftoolsbase.manual.header": "本指南是所有基於 RF 工具的科技模組的手冊",
+
+  "message.rftoolsbase.tablet.header": "可用於連結遠程 GUI 資訊的平板電腦",
+  "message.rftoolsbase.tablet.gold": "平板電腦（空）：打開 GUI 與可用儲存控制模組相結合",
+
+  "message.rftoolsbase.tablet_filled.header": "可用於連結遠程 GUI 資訊的平板電腦",
+  "message.rftoolsbase.tablet_filled.gold": "含有儲存模組平板電腦：點擊右鍵打開 GUI，潛行 + 點擊右鍵打開設置介面",
+  
+  "message.rftoolsbase.smartwrench.header": "智慧扳手：點擊右鍵空氣可以切換模式",
+  "message.rftoolsbase.smartwrench.gold": "選擇模式：潛行 + 點擊右鍵拆卸，點擊右鍵旋轉",
+  "message.rftoolsbase.smartwrench.info1": "模式：",
+  "message.rftoolsbase.smartwrench.info2": "方塊：",
+
+  "message.rftoolsbase.smartwrench_select.header": "智慧扳手：對著空氣點擊右鍵可以切換模式",
+  "message.rftoolsbase.smartwrench_select.gold": "選擇模式：潛行 + 點擊右鍵拆卸，點擊右鍵旋轉",
+  "message.rftoolsbase.smartwrench_select.info1": "模式：",
+  "message.rftoolsbase.smartwrench_select.info2": "方塊：",
+
+  "message.rftoolsbase.security_manager": "@a滿足：%s組\n@f這個機器管理你的安全卡"
+}
