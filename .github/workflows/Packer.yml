@@ -1,0 +1,81 @@
+name: Packer
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - assets/**
+      - pack.mcmeta
+      - pack.png
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  Packer:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 查看專案
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 修改版本
+        id: version
+        run: |
+          sed -i 's/$VERSION/git '${GITHUB_SHA::7}'/1' pack.mcmeta
+
+      - name: 輸出目前時間
+        id: current_time
+        run: |
+          echo "time=$(TZ='Asia/Taipei' date +'最後更新：%Y 年 %m 月 %d 日 %H 點 %M 分')" >> $GITHUB_OUTPUT
+
+      - name: 製作模組中文化資源包
+        uses: ComunidadAylas/PackSquash-action@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          force_include_files: |
+            LICENSE
+          never_store_squash_times: true
+          path: ./
+
+      - name: 下載壓縮檔
+        uses: actions/download-artifact@v2
+        with:
+          name: Optimized pack
+          path: ./
+
+      - name: 刪除 Artifact
+        uses: geekyeggo/delete-artifact@v1
+        with:
+          name: |
+            Optimized pack
+
+      - name: 重新命名壓縮檔
+        run: |
+          mv ./pack.zip MMLP-CN-to-ZW.zip
+
+      - name: 自動更新發布
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "*.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: latest
+          allowUpdates: true
+          name: 簡轉繁資源包
+          body: |
+            ## 下載
+
+            下載下方的 Assets 內的 ``MMLP-CN-to-ZW.zip``
+            並放入遊戲的資源包中載入即可!
+
+            ## 更新
+
+            此翻譯包會在新增新內容時自動更新
+            只要到這個頁面重新下載 zip 即可!
+
+            ### 最後更新時間
+            ${{ steps.current_time.outputs.time }}
