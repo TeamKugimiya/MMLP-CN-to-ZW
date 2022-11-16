@@ -31,7 +31,7 @@ jobs:
       - name: 輸出目前時間
         id: current_time
         run: |
-          echo "time=$(TZ='Asia/Taipei' date +'最後更新：%Y 年 %m 月 %d 日 %H 點 %M 分')" >> $GITHUB_OUTPUT
+          echo "time=$(TZ='Asia/Taipei' date +'%Y 年 %m 月 %d 日 %H 點 %M 分')" >> $GITHUB_OUTPUT
 
       - name: 製作模組中文化資源包
         uses: ComunidadAylas/PackSquash-action@master
