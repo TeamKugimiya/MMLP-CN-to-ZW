@@ -1,5 +1,8 @@
 # Minecraft Mod Language Package：CN to ZW
 
+[![Download][download_total]][version_link]
+[![License][license_badge]][license]
+
 ## **簡介**
 
 本儲存庫收錄由 [CFPA 組織][cfpa] 的 [簡中模組資源包][MMLP]，繁體化而來的模組翻譯。<br>
@@ -21,6 +24,11 @@
 ## **授權條款**
 
 本專案採用 [知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议][license]（[正體中文]）進行許可。
+
+<!-- Badges -->
+[version_link]: https://github.com/TeamKugimiya/MMLP-CN-to-ZW/releases/latest
+[download_total]: https://img.shields.io/github/downloads/TeamKugimiya/MMLP-CN-to-ZW/total?style=for-the-badge
+[license_badge]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange?style=for-the-badge
 
 <!-- Links -->
 [cfpa]: https://github.com/CFPAOrg
