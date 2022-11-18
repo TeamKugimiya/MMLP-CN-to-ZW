@@ -1,0 +1,89 @@
+{
+    "item.rftoolspower.power_core1": "能量核心（低）",
+    "item.rftoolspower.power_core2": "能量核心（中）",
+    "item.rftoolspower.power_core3": "能量核心（高）",
+    "item.rftoolspower.blazing_rod": "充能烈焰桿",
+    "item.rftoolspower.powercell_card": "維度標記卡",
+
+    "block.rftoolspower.dimensionalcell": "維度能量單元（基礎）",
+    "block.rftoolspower.dimensionalcell_simple": "維度能量單元（簡易）",
+    "block.rftoolspower.dimensionalcell_advanced": "維度能量單元（進階）",
+    "block.rftoolspower.dimensionalcell_creative": "維度能量單元（創造）",
+    "block.rftoolspower.cell1": "能量單元（低）",
+    "block.rftoolspower.cell2": "能量單元（中）",
+    "block.rftoolspower.cell3": "能量單元（高）",
+    "block.rftoolspower.coalgenerator": "燃煤發電機",
+    "block.rftoolspower.power_monitor": "能量監視儀",
+    "block.rftoolspower.power_level": "能量等級檢測儀",
+    "block.rftoolspower.endergenic": "終界能發電機",
+    "block.rftoolspower.ender_monitor": "終界監視儀",
+    "block.rftoolspower.pearl_injector": "終界珍珠注入器",
+    "block.rftoolspower.blazing_generator": "烈焰發電機",
+    "block.rftoolspower.blazing_agitator": "烈焰啟用器",
+    "block.rftoolspower.blazing_infuser": "烈焰注能器",
+
+    "itemGroup.rftoolspower": "RF 工具丨能量",
+
+    "message.rftoolspower.shiftmessage": "<按住 Shift>",
+
+    "message.rftoolspower.powercell_card.header": "用於連接維度能量單元",
+    "message.rftoolspower.powercell_card.info": "連結：",
+
+    "message.rftoolspower.power_core1.header": "製作能量單元的材料",
+    "message.rftoolspower.power_core2.header": "製作能量單元的材料",
+    "message.rftoolspower.power_core3.header": "製作能量單元的材料",
+
+    "message.rftoolspower.blazing_rod.header": "這個物品由烈焰啟用器生產，可用於烈焰發電機",
+    "message.rftoolspower.blazing_rod.time": "時間：",
+    "message.rftoolspower.blazing_rod.power": "能量：",
+    "message.rftoolspower.blazing_rod.duration": "持續時間：",
+    "message.rftoolspower.blazing_rod.infused": "充能：",
+
+    "message.rftoolspower.cell1.header": "能量單元可以儲存電力，可以與其他單元組合形成一個大的多方塊結構，用扳手右鍵點擊可切換一面的輸入、輸出模式",
+    "message.rftoolspower.cell1.info": "能量：",
+
+    "message.rftoolspower.cell2.header": "能量單元可以儲存電力，可以與其他單元組合形成一個大的多方塊結構，用扳手右鍵點擊可切換一面的輸入、輸出模式",
+    "message.rftoolspower.cell2.info": "能量：",
+
+    "message.rftoolspower.cell3.header": "能量單元可以儲存電力，可以與其他單元組合形成一個大的多方塊結構，用扳手右鍵點擊可切換一面的輸入、輸出模式",
+    "message.rftoolspower.cell3.info": "能量：",
+
+    "message.rftoolspower.power_monitor.header": "能量監視儀可以根據目標方塊中的能量發出紅石訊號",
+
+    "message.rftoolspower.power_level.header": "能量等級檢測儀顯示一個代表某物的能量的數字，它也可以將能量監視儀根據目標方塊中的能量發出的紅石訊號發出相同量的紅石訊號",
+
+    "message.rftoolspower.blazing_generator.header": "烈焰發電機從烈焰桿中產生能量，烈焰桿必須先使用烈焰啟用器‘啟用’",
+    "message.rftoolspower.blazing_generator.gold": "注能升級：更多發電量",
+
+    "message.rftoolspower.blazing_agitator.header": "烈焰啟用器可以‘啟用’烈焰桿，以便它們可用於烈焰發電機",
+    "message.rftoolspower.blazing_agitator.gold": "注能升級：品質更好的充能烈焰桿",
+
+    "message.rftoolspower.blazing_infuser.header": "烈焰注能器可以將維度碎片、紅石或螢石粉注入熾熱棒中，可以提高在烈焰發電機中的發電量和持續時間",
+
+    "message.rftoolspower.endergenic.header": "終界能發電機從終界珍珠中產生能量，至少需要兩個生成器才能工作，並且設置相對複雜。時機很關鍵",
+    "message.rftoolspower.endergenic.gold": "注能升級：更多的發電量和減少珍珠的電力損失",
+
+    "message.rftoolspower.ender_monitor.header": "終界監視儀可以檢測相鄰的終界能發電機的各種變化，並根據變化發出紅石訊號",
+
+    "message.rftoolspower.pearl_injector.header": "終界珍珠注入器接收到紅石訊號時，會向相鄰的終界生成器中注入終界珍珠",
+
+    "message.rftoolspower.coalgenerator.header": "燃煤發電機用煤炭或木炭產生 RF/FE",
+    "message.rftoolspower.coalgenerator.gold": "注能升級：更多的發電量和更持久的單一燃料",
+    "message.rftoolspower.coalgenerator.info": "發電中：",
+    
+    "message.rftoolspower.dimensionalcell.header": "維度能量單元可以儲存電力，在大型多維度結構中亦可",
+    "message.rftoolspower.dimensionalcell.gold": "注能升級：降低長距離傳遞中的能量損耗並增加 RF/tick 輸出",
+    "message.rftoolspower.dimensionalcell.info": "能量： ",
+
+    "message.rftoolspower.dimensionalcell_advanced.header": "維度能量單元可以儲存電力，在大型多維度結構中亦可",
+    "message.rftoolspower.dimensionalcell_advanced.gold": "注能升級：降低長距離傳遞中的能量損耗並增加 RF/tick 輸出",
+    "message.rftoolspower.dimensionalcell_advanced.info": "能量：",
+
+    "message.rftoolspower.dimensionalcell_simple.header": "維度能量單元可以儲存電力，在大型多維度結構中亦可",
+    "message.rftoolspower.dimensionalcell_simple.gold": "注能升級：降低長距離傳遞中的能量損耗並增加 RF/tick 輸出",
+    "message.rftoolspower.dimensionalcell_simple.info": "能量：",
+
+    "message.rftoolspower.dimensionalcell_creative.header": "維度能量單元可以儲存電力，在大型多維度結構中亦可",
+    "message.rftoolspower.dimensionalcell_creative.gold": "注能升級：降低長距離傳遞中的能量損耗並增加 RF/tick 輸出",
+    "message.rftoolspower.dimensionalcell_creative.info": "能量："
+  }
