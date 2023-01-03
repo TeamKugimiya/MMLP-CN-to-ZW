@@ -1,0 +1,45 @@
+{
+    "name": "工業吹風機紗網",
+    "icon": "compressedcreativity:mesh_splashing",
+    "category": "pneumaticcraft:compressed_creativity",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "pages": [
+      {
+        "type": "text",
+        "text": "安裝不同種類的$(item)紗網$()，就能相應改變工業吹風機的功用。"
+      },
+      {
+        "type": "crafting",
+        "title": "紗網框架",
+        "recipe": "compressedcreativity:crafting/mesh_empty",
+        "text": "$(item)紗網框架$()是其他紗網的基底。"
+      },
+      {
+        "type": "crafting",
+        "title": "緻密紗網",
+        "recipe": "compressedcreativity:crafting/mesh_dense",
+        "text": "$(item)緻密紗網$()能增加熱交換。因此，熱量耗散速度上升，但熔煉所需的溫度也會降低（100℃）。"
+      },
+      {
+        "type": "crafting",
+        "title": "纏魂紗網",
+        "recipe": "compressedcreativity:crafting/mesh_haunted",
+        "text": "當熱空氣穿過$(item)纏魂紗網$()後，其就可用於纏魂。"
+      },
+      {
+        "type": "crafting",
+        "title": "編織紗網",
+        "recipe": "compressedcreativity:crafting/mesh_woven",
+        "text": "$(item)編織紗網$()自身沒有功用，但在將其浸水後，它就會變成\ue908\ue909"
+      },
+      {
+        "type": "spotlight",
+        "title": "浸水紗網",
+        "item": "compressedcreativity:mesh_splashing",
+        "text": "$(item)浸水紗網$()可使氣流用於洗滌！但一定要注意控制溫度\ue908\ue909"
+      }
+    ],
+    "extra_recipe_mappings": {
+      "compressedcreativity:mesh_splashing": 5
+    }
+  }

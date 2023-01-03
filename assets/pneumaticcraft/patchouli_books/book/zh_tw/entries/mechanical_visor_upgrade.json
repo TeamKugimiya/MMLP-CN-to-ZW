@@ -1,0 +1,17 @@
+{
+  "name": "機械護面升級",
+  "icon": "compressedcreativity:mechanical_visor_upgrade",
+  "category": "pneumaticcraft:compressed_creativity",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)機械護面升級$()是能讓你查看機械的動力學狀態的升級，和$(item)工程師護目鏡$()的工作方式類似。$(br2)若與$(l:base_concepts/upgrades#block_tracker)方塊追蹤升級$()同時安裝，則方塊追蹤也能追蹤機械動力的方塊，還能查看其動力學狀態！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "compressedcreativity:crafting/mechanical_visor_upgrade",
+      "text": "$(item)機械護面升級$()的合成表"
+    }
+  ]
+}

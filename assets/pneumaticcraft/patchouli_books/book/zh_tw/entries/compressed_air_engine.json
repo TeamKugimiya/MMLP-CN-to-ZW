@@ -1,0 +1,17 @@
+{
+  "name": "壓縮空氣引擎",
+  "icon": "compressedcreativity:compressed_air_engine",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)壓縮空氣引擎$()是使用壓縮空氣產生旋轉力的機器。它會無視壓力和工作狀態消耗壓縮空氣，請務必注意其是否在浪費！"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "compressedcreativity:crafting/compressed_air_engine",
+      "text": "$(item)壓縮空氣引擎$()的合成表"
+    }
+  ]
+}

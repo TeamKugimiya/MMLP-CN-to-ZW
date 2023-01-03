@@ -11,11 +11,21 @@
 目前臨時轉換而來的模組：<br>
 
 * [高級外設 Advanced Peripherals][advancedperipherals]
+* [新生魔藝 Ars Nouveau][ars_nouveau]
 * [植物魔法 Botania][botania]
 * [雕刻工藝 Chisels & Bits - For Forge][chiselsandbits]
 * [電腦 CC: Tweaked][computercraft]
+* [動力機械：裝飾 Create Deco][createdeco]
 * [工程師的裝飾 Engineer's Decor][engineersdecor]
+* [幻象 Ensorcellation][ensorcellation]
+* [禁忌與奧秘 Forbidden and Arcanus][forbidden_arcanus]
 * [鑲框方塊 FramedBlocks][framedblocks]
+* [整合合成 Integrated Crafting][integratedcrafting]
+* [整合力學 Integrated Dynamics][integrateddynamics]
+* [整合終端 Integrated Terminals][integratedterminals]
+* [整合管道 Integrated Tunnels][integratedtunnels]
+* [神祕學 Occultism][occultism]
+* [氣動工藝：再加壓 PneumaticCraft: Repressurized][pneumaticcraft]
 * [夸克 Quark][quark]
 * [RF 工具｜核心 RFTools Base][rftoolsbase]
 * [RF 工具｜建築機 RFTools Builder][rftoolsbuilder]
@@ -38,11 +48,21 @@
 [cfpa]: https://github.com/CFPAOrg
 [mmlp]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package
 [advancedperipherals]: https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
+[ars_nouveau]: https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
 [botania]: https://www.curseforge.com/minecraft/mc-mods/botania
 [chiselsandbits]: https://www.curseforge.com/minecraft/mc-mods/chisels-bits
 [computercraft]: https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
+[createdeco]: https://www.curseforge.com/minecraft/mc-mods/create-deco
 [engineersdecor]: https://www.curseforge.com/minecraft/mc-mods/engineers-decor
+[ensorcellation]: https://www.curseforge.com/minecraft/mc-mods/ensorcellation
+[forbidden_arcanus]: https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus
 [framedblocks]: https://www.curseforge.com/minecraft/mc-mods/framedblocks
+[integratedcrafting]: https://www.curseforge.com/minecraft/mc-mods/integrated-crafting
+[integrateddynamics]: https://www.curseforge.com/minecraft/mc-mods/integrated-dynamics
+[integratedterminals]: https://www.curseforge.com/minecraft/mc-mods/integrated-terminals
+[integratedtunnels]: https://www.curseforge.com/minecraft/mc-mods/integrated-tunnels
+[occultism]: https://www.curseforge.com/minecraft/mc-mods/occultism
+[pneumaticcraft]: https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized
 [quark]: https://www.curseforge.com/minecraft/mc-mods/quark
 [rftoolsbase]: https://www.curseforge.com/minecraft/mc-mods/rftools-base
 [rftoolsbuilder]: https://www.curseforge.com/minecraft/mc-mods/rftools-builder

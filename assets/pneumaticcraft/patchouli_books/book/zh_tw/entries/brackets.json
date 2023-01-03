@@ -1,0 +1,18 @@
+{
+  "name": "支架",
+  "icon": "create:metal_bracket",
+  "category": "pneumaticcraft:compressed_creativity",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "曾想過把$(item)木質支架$()或$(item)金屬支架$()架在$(item)壓力管道$()上嗎？你的夢想成真了！"
+    },
+    {
+      "type": "crafting",
+      "title": "塑膠支架",
+      "recipe": "compressedcreativity:crafting/orange_plastic_bracket",
+      "text": "你還可以合成$(item)塑膠支架$()！它跟木質支架還有金屬支架的工作方式完全一致，且有16種不同顏色。"
+    }
+  ]
+}

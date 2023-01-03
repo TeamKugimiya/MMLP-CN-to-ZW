@@ -1,0 +1,60 @@
+{
+  "name": "氣動機械",
+  "icon": "create:cogwheel",
+  "category": "pneumaticcraft:compressed_creativity",
+  "advancement": "create:andesite_alloy",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "你可曾想過：$(o)“氣動機器真是酷，但總該能把它們變得酷上加酷。”$()不必擔心，現在你就能體驗氣動工藝和機械動力同步的內容了！"
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:rotational_compressor",
+      "text": "$(l:pneumaticcraft:rotational_compressor)旋轉壓縮機$()是一種使用機械動力的旋轉力產生壓力的壓縮機。"
+    },
+    {
+      "type": "spotlight",
+      "item": "create:copper_backtank",
+      "text": "$(l:pneumaticcraft:copper_backtank)銅背罐$()有了全新功能：在物品狀態和方塊狀態下都有了氣動功用。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:charging_upgrade",
+      "text": "$(l:base_concepts/upgrades#charging)充氣升級$()有了全新功能：$(item)伸縮機械手$()和$(item)馬鈴薯加農炮$()之類的機械動力工具也能以此充入空氣。"
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:air_blower",
+      "text": "$(l:pneumaticcraft:air_blower)吹風機$()是使用壓縮空氣製造氣流的機器，與$(item)鼓風機$()類似。"
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:industrial_air_blower",
+      "text": "$(l:pneumaticcraft:industrial_air_blower)工業吹風機$()是具有額外功能的$(item)吹風機$()，如更高的加工速度，和透過$(l:pneumaticcraft:industrial_air_blower_meshes)紗網$()更改加工方式的能力。"
+    },
+    {
+      "type": "spotlight",
+      "title": "Meshes",
+      "item": "compressedcreativity:mesh_splashing",
+      "text": "$(l:pneumaticcraft:industrial_air_blower_meshes)紗網$()能為工業吹風機提供額外的加工能力。"
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:compressed_air_engine",
+      "text": "$(l:pneumaticcraft:compressed_air_engine)壓縮空氣引擎$()是使用壓縮空氣的動力引擎。就算不處於工作狀態，它仍會消耗空氣，所以請務必保證其有足夠的壓力！"
+    },
+    {
+      "type": "spotlight",
+      "item": "compressedcreativity:mechanical_visor_upgrade",
+      "text": "安裝入$(l:armor/pneumatic_helmet)氣動頭盔$()時，$(l:pneumaticcraft:mechanical_visor_upgrade)機械護面升級$()將會提供與工程師護目鏡一致的功能。"
+    },
+    {
+      "type": "spotlight",
+      "title": "塑膠支架",
+      "item": "compressedcreativity:orange_plastic_bracket",
+      "text": "$(l:pneumaticcraft:brackets)塑膠支架$()是一種五顏六色的全新支架，能支撐傳動桿、管道、齒輪以及壓力管道！"
+    }
+  ]
+}

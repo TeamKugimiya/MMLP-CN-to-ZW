@@ -1,0 +1,21 @@
+{
+    "name": "工業吹風機",
+    "icon": "compressedcreativity:industrial_air_blower",
+    "category": "pneumaticcraft:machines",
+    "advancement": "pneumaticcraft:pressure_tube",
+    "pages": [
+      {
+        "type": "text",
+        "text": "$(item)工業吹風機$()是更為高級的吹風機。$(br)它能承受更高的壓力，加工速度也可更快。但同時會導致高壓氣體消耗增加，氣流的吹拂距離也較短。$(br2)它的另一功能在於，當達到某溫度時，其產生的氣流可用於煙燻和熔煉。"
+      },
+      {
+        "type": "text",
+        "text": "可以安裝各種$(l:pneumaticcraft:industrial_air_blower_meshes)紗網$()以改變其功用。$(br2)預設狀況下，$(item)工業吹風機$()所產生的氣流在溫度超過100℃時可用於煙燻，超過300℃時則可用於熔煉。"
+      },
+      {
+        "type": "crafting",
+        "recipe": "compressedcreativity:crafting/industrial_air_blower",
+        "text": "$(item)工業吹風機$()$(br2)的合成表"
+      }
+    ]
+  }

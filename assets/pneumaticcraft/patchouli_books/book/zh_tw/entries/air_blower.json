@@ -1,0 +1,17 @@
+{
+  "name": "吹風機",
+  "icon": "compressedcreativity:air_blower",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)吹風機$()是使用壓縮空氣製造氣流的機器，與$(item)鼓風機$()類似。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "compressedcreativity:crafting/air_blower",
+      "text": "$(item)吹風機$()的合成表"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "旋轉壓縮機",
+  "icon": "compressedcreativity:rotational_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)旋轉壓縮機$()是一種使用機械動力的旋轉力產生壓力的壓縮機。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "compressedcreativity:crafting/rotational_compressor",
+      "text": "$(item)旋轉壓縮機$()的合成表"
+    }
+  ]
+}

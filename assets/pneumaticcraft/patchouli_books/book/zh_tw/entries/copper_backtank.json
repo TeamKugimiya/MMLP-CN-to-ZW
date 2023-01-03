@@ -1,0 +1,32 @@
+{
+    "name": "銅背罐",
+    "icon": "create:copper_backtank",
+    "category": "pneumaticcraft:compressed_creativity",
+    "pages": [
+      {
+        "type": "text",
+        "text": "方塊形態和物品形態的$(item)銅背罐$()都有了全新功能！$(br)它最多可充至3 bar。$(br2)在方塊形態下，其底部會與各種供氣埠連接，可用作簡易空氣壓縮機。多餘的空氣會被直接排出。"
+      },
+      {
+        "type": "image",
+        "images": ["compressedcreativity:textures/gui/bt_block.png"],
+        "border": true,
+        "title": "銅背罐",
+        "text": "銅背罐用作壓縮機"
+      },
+      {
+        "type": "text",
+        "text": "在物品形態下，其與$(l:pneumaticcraft:components/air_canister)空氣罐$()功能類似。也即可以充氣，就和任何壓縮空氣容器一樣。"
+      },
+      {
+        "type": "image",
+        "images": ["compressedcreativity:textures/gui/bt_item.png"],
+        "border": false,
+        "title": "銅背罐",
+        "text": "在$(l:pneumaticcraft:machines/charging_station)充氣站$()中為銅背罐充氣。"
+      }
+    ],
+    "extra_recipe_mappings": {
+      "create:copper_backtank": 0
+    }
+  }
