@@ -24,6 +24,8 @@
 * [整合力學 Integrated Dynamics][integrateddynamics]
 * [整合終端 Integrated Terminals][integratedterminals]
 * [整合管道 Integrated Tunnels][integratedtunnels]
+* [神秘農業擴展 Mystical Agradditions][mysticalagradditions]
+* [神秘農業 Mystical Agriculture][mysticalagriculture]
 * [神祕學 Occultism][occultism]
 * [氣動工藝：再加壓 PneumaticCraft: Repressurized][pneumaticcraft]
 * [夸克 Quark][quark]
@@ -61,6 +63,8 @@
 [integrateddynamics]: https://www.curseforge.com/minecraft/mc-mods/integrated-dynamics
 [integratedterminals]: https://www.curseforge.com/minecraft/mc-mods/integrated-terminals
 [integratedtunnels]: https://www.curseforge.com/minecraft/mc-mods/integrated-tunnels
+[mysticalagradditions]: https://www.curseforge.com/minecraft/mc-mods/mystical-agradditions
+[mysticalagriculture]: https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture
 [occultism]: https://www.curseforge.com/minecraft/mc-mods/occultism
 [pneumaticcraft]: https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized
 [quark]: https://www.curseforge.com/minecraft/mc-mods/quark
