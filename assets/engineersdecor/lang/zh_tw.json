@@ -230,7 +230,7 @@
   "block.engineersdecor.small_tree_cutter.help": "砍倒正前方的樹。\n 不收集木材。\n 通入紅石訊號停用。\n ${!tree_cutter_requires_power?engineersdecor.tooltip.massive_speed_boost_with_rf_power} ${tree_cutter_requires_power?engineersdecor.tooltip.requires_rf_power}",
   "block.engineersdecor.small_tree_cutter.status": "電量：%1$s%%，總 %2$s RF§r｜進度：%3$s%%（%4$s 秒）",
   "block.engineersdecor.small_waste_incinerator": "小型垃圾焚燒爐",
-  "block.engineersdecor.small_waste_incinerator.help": "帶有內部先進先出隊列格的垃圾桶。\n 物品可以從任任意面插入，並且會保留到沒有空間為止。\n 一旦超過隊列上限，最先進入的物品會被焚毀。\n 通入 RF/FE 能源會增加處理速度。\n 破壞時保留內部未銷毀的物品。",
+  "block.engineersdecor.small_waste_incinerator.help": "帶有內部先進先出隊列格的垃圾桶。\n 物品可以從任意面插入，並且會保留到沒有空間為止。\n 一旦超過隊列上限，最先進入的物品會被焚毀。\n 通入 RF/FE 能源會增加處理速度。\n 破壞時保留內部未銷毀的物品。",
   "block.engineersdecor.steel_catwalk": "鋼棧橋",
   "block.engineersdecor.steel_catwalk.help": "簡單的棧橋，用於更好地操作大型機器。\n 從上方放置在已有棧橋上還能往旁邊拓展。\n 使用鋼欄杆右擊可在側面添加護欄。\n（靠近後右擊：精確放置，在遠處右擊：自動尋找棧橋邊緣）\n 再次右擊可移除護欄。",
   "block.engineersdecor.steel_catwalk_stairs": "鋼棧橋階梯",
