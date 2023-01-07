@@ -1089,7 +1089,7 @@
     "pneumaticcraft.gui.progWidget.blockRightClick.sneaking.tooltip": "勾選後，無人機將會進行潛行右鍵點擊。",
     "pneumaticcraft.gui.progWidget.blockRightClick.clickType.click_item": "用物品點擊",
     "pneumaticcraft.gui.progWidget.blockRightClick.clickType.click_block": "點擊方塊",
-    "pneumaticcraft.gui.progWidget.blockRightClick.clickType.tooltip": "§f用物品點擊${br}§7使用所持物品的右鍵點擊邏輯，如：對一個方塊使用打火石${br}§f點擊方塊${br}§7使用被點擊的方塊的右鍵點擊邏輯，如：啟用一個拉杆",
+    "pneumaticcraft.gui.progWidget.blockRightClick.clickType.tooltip": "§f用物品點擊${br}§7使用所持物品的右鍵點擊邏輯，如：對一個方塊使用打火石${br}§f點擊方塊${br}§7使用被點擊的方塊的右鍵點擊邏輯，如：啟用一個控制桿",
     "pneumaticcraft.gui.progWidget.chargingStation.debug.cantNavigate": "無法導航至充氣站。",
     "pneumaticcraft.gui.progWidget.chargingStation.debug.claimed": "充氣站已被另一個無人機占用。",
     "pneumaticcraft.gui.progWidget.chargingStation.debug.noDispenserUpgrades": "充氣站未安裝發射器升級。",
