@@ -31,6 +31,7 @@
 * [夸克 Quark][quark]
 * [RF 工具｜核心 RFTools Base][rftoolsbase]
 * [RF 工具｜建築機 RFTools Builder][rftoolsbuilder]
+* [RF 工具｜控制 RFTools Control][rftoolscontrol]
 * [RF 工具｜能量 RFTools Power][rftoolspower]
 * [RF 工具｜儲存 RFTools Storage][rftoolsstorage]
 * [RF 工具｜實用設備 RFTools Utility][rftoolsutility]
@@ -70,6 +71,7 @@
 [quark]: https://www.curseforge.com/minecraft/mc-mods/quark
 [rftoolsbase]: https://www.curseforge.com/minecraft/mc-mods/rftools-base
 [rftoolsbuilder]: https://www.curseforge.com/minecraft/mc-mods/rftools-builder
+[rftoolscontrol]: https://www.curseforge.com/minecraft/mc-mods/rftools-control
 [rftoolspower]: https://www.curseforge.com/minecraft/mc-mods/rftools-power
 [rftoolsstorage]: https://www.curseforge.com/minecraft/mc-mods/rftools-storage
 [rftoolsutility]: https://www.curseforge.com/minecraft/mc-mods/rftools-utility
