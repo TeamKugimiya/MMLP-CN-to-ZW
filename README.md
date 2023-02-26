@@ -28,7 +28,6 @@
 * [神秘農業 Mystical Agriculture][mysticalagriculture]
 * [神祕學 Occultism][occultism]
 * [氣動工藝：再加壓 PneumaticCraft: Repressurized][pneumaticcraft]
-* [夸克 Quark][quark]
 * [RF 工具｜核心 RFTools Base][rftoolsbase]
 * [RF 工具｜建築機 RFTools Builder][rftoolsbuilder]
 * [RF 工具｜控制 RFTools Control][rftoolscontrol]
@@ -68,7 +67,6 @@
 [mysticalagriculture]: https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture
 [occultism]: https://www.curseforge.com/minecraft/mc-mods/occultism
 [pneumaticcraft]: https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized
-[quark]: https://www.curseforge.com/minecraft/mc-mods/quark
 [rftoolsbase]: https://www.curseforge.com/minecraft/mc-mods/rftools-base
 [rftoolsbuilder]: https://www.curseforge.com/minecraft/mc-mods/rftools-builder
 [rftoolscontrol]: https://www.curseforge.com/minecraft/mc-mods/rftools-control
