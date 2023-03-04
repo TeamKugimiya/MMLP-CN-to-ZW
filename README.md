@@ -12,6 +12,7 @@
 
 * [高級外設 Advanced Peripherals][advancedperipherals]
 * [新生魔藝 Ars Nouveau][ars_nouveau]
+* [木工方塊 BlockCarpentry][blockcarpentry]
 * [植物魔法 Botania][botania]
 * [雕刻工藝 Chisels & Bits - For Forge][chiselsandbits]
 * [電腦 CC: Tweaked][computercraft]
@@ -51,6 +52,7 @@
 [mmlp]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package
 [advancedperipherals]: https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
 [ars_nouveau]: https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
+[blockcarpentry]: https://www.curseforge.com/minecraft/mc-mods/blockcarpentry
 [botania]: https://www.curseforge.com/minecraft/mc-mods/botania
 [chiselsandbits]: https://www.curseforge.com/minecraft/mc-mods/chisels-bits
 [computercraft]: https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
