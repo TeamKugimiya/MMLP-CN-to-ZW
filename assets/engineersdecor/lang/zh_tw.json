@@ -207,7 +207,7 @@
   "block.engineersdecor.small_block_breaker.help": "破壞其正前方的方塊。\n 通入紅石訊號可以停止破壞。\n 破壞一個方塊需要的時間取決於其硬度。\n ${!block_breaker_requires_power?engineersdecor.tooltip.massive_speed_boost_with_rf_power} ${block_breaker_requires_power?engineersdecor.tooltip.requires_rf_power}",
   "block.engineersdecor.small_block_breaker.status": "電量：%1$s%%，總 %2$sRF§r | 進度：%3$s%%",
   "block.engineersdecor.small_electrical_furnace": "小型電爐",
-  "block.engineersdecor.small_electrical_furnace.help": "小型金屬封裝穿過式熔爐。\n 可以從輸入端提取物品，將物品放置在輸出端物品欄。\n 可以使用漏斗從任義大利麵插入或提取物品。\n 無法熔煉或烹飪的物品會直接送到出口。\n 比加熱的鵝卵石熔爐更節能，速度更快。\n 先進先出和自動輸出一次移動一組物品。\n 自動輸出需要一點能量。\n 在輔助格放置一個漏斗會自動提取輸入端物品欄的物品。",
+  "block.engineersdecor.small_electrical_furnace.help": "小型金屬封裝穿過式熔爐。\n 可以從輸入端提取物品，將物品放置在輸出端物品欄。\n 可以使用漏斗從任何面插入或提取物品。\n 無法熔煉或烹飪的物品會直接送到出口。\n 比加熱的鵝卵石熔爐更節能，速度更快。\n 先進先出和自動輸出一次移動一組物品。\n 自動輸出需要一點能量。\n 在輔助格放置一個漏斗會自動提取輸入端物品欄的物品。",
   "block.engineersdecor.small_electrical_furnace.tooltips.auxslot": "輔助格\n§7放置一個漏斗來啟用自動輸入。",
   "block.engineersdecor.small_electrical_furnace.tooltips.capacitors": "電量 %1$s%%，消耗 %2$srf/t",
   "block.engineersdecor.small_electrical_furnace.tooltips.speed": "熔煉速度選擇§7（關/I/II/III）",
