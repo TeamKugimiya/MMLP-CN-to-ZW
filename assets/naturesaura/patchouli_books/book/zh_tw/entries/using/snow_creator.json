@@ -1,0 +1,21 @@
+{
+    "name": "凜冬的呼喚",
+    "icon": "naturesaura:snow_creator",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "有時，特別是在某些假日時，會有人想要寒冷到來，並將世界覆蓋在白地毯裡。當前，由於$(italic)一些情況$()，這一現象已經變得越來越稀有。$(item)凜冬的呼喚$()透過消耗一點$(aura-zh-cn)來使附近大範圍降雪，將這一現象帶了回來。"
+        },
+        {
+            "type": "text",
+            "text": "此外，水也會凍結成冰，相當偶然的情況下，還會生成一些雪人來幫助用雪覆蓋大地。要維持這一過程，需要持續提供$(thing)紅石訊號$()。訊號強度越強，會降雪的區域也越大。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)凜冬的呼喚$()$(p)$(italic)冰川沉澱器",
+            "recipe": "naturesaura:snow_creator"
+        }
+    ]
+}

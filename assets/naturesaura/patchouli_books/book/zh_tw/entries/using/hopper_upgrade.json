@@ -1,0 +1,17 @@
+{
+    "name": "漏斗增強器",
+    "icon": "naturesaura:hopper_upgrade",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "使用$(item)漏斗$()收集物品十分實用，但有時也很不方便，特別是在收集大範圍內的掉落物時。對於這個問題，$(item)漏斗增強器$()會很有幫助：只需將其放在任意$(item)漏斗$()頂部，它就會急劇增加漏斗拾取物品的範圍到大約 $(thing)7$() 個方塊。$(br)在拾取物品時，增強器會消耗少量的$(aura-zh-cn)。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)漏斗增強器$()",
+            "recipe": "naturesaura:hopper_upgrade"
+        }
+    ]
+}

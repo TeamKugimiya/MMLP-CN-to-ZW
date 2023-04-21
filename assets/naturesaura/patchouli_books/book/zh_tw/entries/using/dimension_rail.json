@@ -1,0 +1,35 @@
+{
+    "name": "諸界之軌",
+    "icon": "naturesaura:dimension_rail_nether",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "儘管$(item)礦車$()有著有限的穿過$(thing)傳送門$()的能力，但實現這一功能的裝置必定相當複雜。$(item)諸界之軌$()輕鬆地解決了這個問題：它們有三種類型，每種對應一個已知維度。當礦車在其上通行時，就會直接被傳送到鐵軌對應的維度，並在過程中消耗一點$(aura-zh-cn)。"
+        },
+        {
+            "type": "text",
+            "text": "礦車被送到的具體$(thing)座標$()會根據傳送涉及的維度決定：$(br)在主世界與地獄之間穿行，會使礦車座標乘以或除以 8，類似於普通的傳送門。$(br)從主世界前往終界會使得礦車出現在$(thing)黑曜石平台$()，反過來的話則會出現在主世界的出生點。"
+        },
+        {
+            "type": "text",
+            "text": "在這些軌道上使用$(l:items/range_visualizer)奧秘放大鏡$()會使得目標維度的目標位置被醒目提示，這種醒目提示能$(thing)穿牆$()看見，使得尋找目標位置不太困難。$(p)這類鐵軌唯一的已知問題是似乎無力傳送含有$(thing)生物$()的礦車。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)主世界鐵軌$()",
+            "recipe": "naturesaura:dimension_rail_overworld"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)地獄鐵軌$()",
+            "recipe": "naturesaura:dimension_rail_nether"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)終界鐵軌$()",
+            "recipe": "naturesaura:dimension_rail_end"
+        }
+    ]
+}

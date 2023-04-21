@@ -1,0 +1,6 @@
+{
+    "name": "靈氣製造",
+    "description": "因為$(aura-zh-cn)在被抽取後不會回復，世界上$(aura-zh-cn)的有限總量實在令人不安。不過現在這已經不是問題了：這個章節中解釋了如何用各種技術製造$(aura-zh-cn)。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/creating.png",
+    "sortnum": 18
+}

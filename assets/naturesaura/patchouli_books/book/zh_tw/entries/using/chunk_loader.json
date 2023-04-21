@@ -1,0 +1,22 @@
+{
+    "name": "世界之眼",
+    "icon": "naturesaura:chunk_loader",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "flag": "naturesaura:chunk_loader",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在我們所居住的世界，一個關鍵問題從未被透徹地理解：在沒有人看著的地方，似乎什麼也不會發生——時間本身似乎暫停了。這一自然現象有時頗為棘手，特別是進行長距離自動化傳輸時。不過，$(item)世界之眼$()會幫你凝視應當保持$(thing)啟用$()的區域，雖然維持其視線"
+        },
+        {
+            "type": "text",
+            "text": "需要少量的$(aura-zh-cn)。$(p)要使其工作，只需放下來並提供一個$(thing)紅石訊號$()——訊號越強，眼的工作半徑就越大，最大有 30 格。由於以眼進行觀察的本質原理，這個範圍並不總是十分精確。這也意味著有時候載入的區域會比預期範圍$(thing)稍大$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)世界之眼$()$(p)$(italic)A load of chunks",
+            "recipe": "naturesaura:chunk_loader"
+        }
+    ]
+}

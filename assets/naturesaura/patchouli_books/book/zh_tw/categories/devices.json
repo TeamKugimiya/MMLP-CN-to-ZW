@@ -1,0 +1,6 @@
+{
+    "name": "設備",
+    "description": "有的設備不是直接利用$(aura-zh-cn)的力量，而是利用靈氣製造的物品，來實現其他設備做不到的功能。這個章節描述了這樣的設備。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/devices.png",
+    "sortnum": 30
+}

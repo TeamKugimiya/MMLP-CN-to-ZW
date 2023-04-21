@@ -1,0 +1,21 @@
+{
+    "name": "終界板條箱",
+    "icon": "naturesaura:ender_crate",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)終界箱$()對於想要安全儲存物品的人來說是一項極佳的技術，但是，它們沒有提供任何能$(thing)傳輸$()這些物品的方法。在這方面，$(item)終界板條箱$()就很完美：兩個或多個這類連結到一起的板條箱共享了相同的物品欄，哪怕跨越維度也能正常工作。它們的這種特性展示了輕鬆傳輸物品的可能性。"
+        },
+        {
+            "type": "text",
+            "text": "當然，每次和板條箱互動時都需要消耗一些$(aura-zh-cn)。$(br)要連結一個或多個箱子，它們必須被同給予一個$(item)終界名$()。只需將其和一個$(item)終界之眼$()一起放在$(thing)鐵砧$()裡，然後寫下想要的名字就能給予終界名。$(br)如果擔心其他人用同一個名字連結到板條箱，只需在板條箱內放一個使用終界名命名的$(l:practices/offering#terror)驚駭$()印記就能$(thing)鎖定$()這個終界名。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)終界板條箱$()",
+            "recipe": "naturesaura:ender_crate"
+        }
+    ]
+}

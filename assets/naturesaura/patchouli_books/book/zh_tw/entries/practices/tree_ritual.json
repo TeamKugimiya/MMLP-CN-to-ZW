@@ -1,0 +1,52 @@
+{
+    "name": "森林儀式",
+    "icon": "naturesaura:wood_stand",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:gold_leaf",
+    "priority": true,
+    "turnin": "naturesaura:wood_stand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在剛開始踏上魔法植物學家之道，一頭扎進對$(aura-zh-cn)的探索之前，先在更直接的水準上運用自然的力量很有益處。$(item)森林儀式$()利用了$(l:practices/gold_trees)金葉粉$()的特性來將自然原料的力量直接吸收入一顆鮮活，生長的樹。在這個過程中樹本身會被吞噬，並被轉換為實用的工具和物品。"
+        },
+        {
+            "type": "text",
+            "text": "要建構這個$(thing)儀式$()，你需要將$(item)金葉粉$()以下頁顯示的配置擺放，並在旁邊圍上一些用於擺放原料的$(item)木基座$()。$(br)之後，需要在最中央種上種類正確的$(item)樹苗$()。接下來，要嘛透過某種肥料，要嘛通過時間那不可避免之力，樹的成長會使得儀式開始。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:tree_ritual",
+            "text": "$(item)森林儀式$()的準備過程。不一定需要擺放所有$(item)木基座$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)木基座$()",
+            "recipe": "naturesaura:wood_stand"
+        },
+        {
+            "type": "text",
+            "text": "與儀式一道，$(item)印記$()的知識也會被得到：一種木製的雕像，描繪著情緒，能從使用它們各自的符號灌注樹木得到。這些木雕是大量$(aura-zh-cn)與其表現的情緒的結合。$(p)在後面，這些$(item)印記$()會是關鍵的合成原料。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_joy",
+            "text": "製作$(item)愉悅印記$()，使用在自然、探索和美中能激發愉悅的物品灌注"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_fear",
+            "text": "製作$(item)恐懼印記$()，使用代表無常、死亡的物品灌注"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_anger",
+            "text": "製作$(item)憤怒印記$()，使用暗示爆炸、火焰和黑暗的黑暗組件灌注"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:token_sorrow",
+            "text": "製作$(item)憂傷印記$()，使用眼淚、脆弱和死亡灌注。"
+        }
+    ]
+}

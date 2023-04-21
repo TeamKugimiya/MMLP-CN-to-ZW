@@ -1,0 +1,21 @@
+{
+    "name": "盔甲匠之援",
+    "icon": "naturesaura:blast_furnace_booster",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "自從村民科學家發現了更高等材料的用途並創造了$(item)高爐$()，魔法植物學家一直在設法進一步發展這項科技。它們發現了$(aura-zh-cn)可能適於淨化任意種類的$(thing)礦物$()，以致於冶煉礦物有機率產生$(thing)兩個錠$()而不是一個。"
+        },
+        {
+            "type": "text",
+            "text": "這種功能可以通過$(item)盔甲匠之援$()，實現，只需簡單地將其放在$(item)高爐$()的頂部。$(p)注意，為了$(thing)自動化$()，礦物可以通過$(item)漏斗$()或類似的設備插入$(item)盔甲匠之援$()。這會使得插入的物品到達熔煉區域，就像它們被直接從$(item)高爐$()頂部插入一樣。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)盔甲匠之援$()",
+            "recipe": "naturesaura:blast_furnace_booster"
+        }
+    ]
+}

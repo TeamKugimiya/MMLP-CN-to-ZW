@@ -1,0 +1,17 @@
+{
+    "name": "效應粉末",
+    "icon": "naturesaura:effect_powder{effect:'naturesaura:plant_boost'}",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)效應粉末$()是為了實現兩種目的的魔法物質：首先，它可以$(thing)抑制$()被動效果的發生。此外，有些效果只會在粉末存在的局部內發生，意味著粉末還具有$(thing)創造性$()的能力。$(p)理所當然，粉末只能影響正面效果。"
+        },
+        {
+            "type": "text",
+            "text": "要使用粉末，只需要將任意數量的一疊粉末放在地上，此時粉末就會根據其類型抑制或催生效果。粉末作用的$(thing)範圍$()格數和粉末堆中粉末的數量相當。粉末放在地上時，攻擊粉末即可使其變回掉落物形態。$(p)對於每一種有對應效果的$(item)效應粉末$()，它的配方都能在本章找到。"
+        }
+    ]
+}

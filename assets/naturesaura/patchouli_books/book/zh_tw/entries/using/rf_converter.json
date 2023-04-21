@@ -1,0 +1,27 @@
+{
+    "name": "充能靈氣鍛爐",
+    "icon": "naturesaura:rf_converter",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "flag": "naturesaura:rf_converter",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(aura-zh-cn)相當萬能，也相當有用，但它肯定不是唯一的$(thing)能量源$()。在最近的歷史裡，不被認為是自然存在的種種能量被曾人們$(italic)締造$()出來。有時，支配這種能量源會十分有用。The $(item)充能靈氣鍛爐$()能將$(aura-zh-cn)直接轉換成大多數人稱為$(thing)紅石通量$()的東西，"
+        },
+        {
+            "type": "text",
+            "text": "但也有一些人稱之為 $(thing)Forge 能量$()，對其他人甚至是$(thing)水晶通量$()。$(br)要實現轉換，只需將$(item)充能靈氣鍛爐$()擺放在下頁展示的伴隨結構當中。然後，區域中任何過量的$(aura-zh-cn)就會自動變成電能。區域中$(aura-zh-cn)越多，轉換的速度就越快。$(br)此外，裝備$(l:items/eye)環境之眼$()時還會顯示設備中能量的多少。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:rf_converter",
+            "text": "構建圍繞$(item)充能靈氣鍛爐$()的結構"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)充能靈氣鍛爐$()",
+            "recipe": "naturesaura:rf_converter"
+        }
+    ]
+}

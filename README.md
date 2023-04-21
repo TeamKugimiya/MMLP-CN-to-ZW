@@ -13,6 +13,7 @@
 * [高級外設 Advanced Peripherals][advancedperipherals]
 * [新生魔藝 Ars Nouveau][ars_nouveau]
 * [木工方塊 BlockCarpentry][blockcarpentry]
+* [蔚藍天空 Blue Skies][blueskies]
 * [植物魔法 Botania][botania]
 * [雕刻工藝 Chisels & Bits - For Forge][chiselsandbits]
 * [電腦 CC: Tweaked][computercraft]
@@ -27,6 +28,7 @@
 * [整合管道 Integrated Tunnels][integratedtunnels]
 * [神秘農業擴展 Mystical Agradditions][mysticalagradditions]
 * [神秘農業 Mystical Agriculture][mysticalagriculture]
+* [自然靈氣 Nature's Aura][naturesaura]
 * [神祕學 Occultism][occultism]
 * [氣動工藝：再加壓 PneumaticCraft: Repressurized][pneumaticcraft]
 * [RF 工具｜核心 RFTools Base][rftoolsbase]
@@ -53,6 +55,7 @@
 [advancedperipherals]: https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
 [ars_nouveau]: https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
 [blockcarpentry]: https://www.curseforge.com/minecraft/mc-mods/blockcarpentry
+[blueskies]: https://www.curseforge.com/minecraft/mc-mods/blue-skies
 [botania]: https://www.curseforge.com/minecraft/mc-mods/botania
 [chiselsandbits]: https://www.curseforge.com/minecraft/mc-mods/chisels-bits
 [computercraft]: https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
@@ -67,6 +70,7 @@
 [integratedtunnels]: https://www.curseforge.com/minecraft/mc-mods/integrated-tunnels
 [mysticalagradditions]: https://www.curseforge.com/minecraft/mc-mods/mystical-agradditions
 [mysticalagriculture]: https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture
+[naturesaura]: https://www.curseforge.com/minecraft/mc-mods/natures-aura
 [occultism]: https://www.curseforge.com/minecraft/mc-mods/occultism
 [pneumaticcraft]: https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized
 [rftoolsbase]: https://www.curseforge.com/minecraft/mc-mods/rftools-base

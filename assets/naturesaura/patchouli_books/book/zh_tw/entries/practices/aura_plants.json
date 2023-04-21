@@ -1,0 +1,35 @@
+{
+    "name": "靈氣植物",
+    "icon": "naturesaura:aura_bloom",
+    "category": "naturesaura:practices",
+    "pages": [
+        {
+            "type": "text",
+            "text": "有一種能幫助發現$(aura-zh-cn)的自然指示物，它們是在世界各處出現的特定種類的植物。這類植物能在第一次生長時使附近區域還有高濃度$(aura-zh-cn)，因此為人所知。此外，所有的這些植物放在$(item)花盆$()裡都十分完美，能作為相當不錯的裝飾。"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:aura_bloom",
+            "link_recipe": true,
+            "text": "$(item)靈氣花$()長在能找到$(thing)草$()的任意地區，通常以小群生長。首次開始使用$(aura-zh-cn)時，找到這種區域可以特別有用，因為在這裡使用$(l:practices/aura_bottle)瓶與塞$()收集$(aura-zh-cn)對環境的破壞要少得多。"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:aura_cactus",
+            "link_recipe": true,
+            "text": "$(item)靈氣仙人掌$()可以長在任何顏色的沙漠區域中，也能長在$(thing)惡地$()區域。由於這些區域通常比較貧瘠，也找不到太多植物，可能會是尋找$(aura-zh-cn)的一個好的開始。"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:aura_mushroom",
+            "link_recipe": true,
+            "text": "$(item)靈氣蘑菇$()可以在菌絲侵染的島上找到，在那裡它會和巨型蘑菇和亮紅色的牛一起出現。在這些區域，$(item)靈氣蘑菇$()會使得地面升起漂亮的紫色$(aura-zh-cn)粒子。"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:crimson_aura_mushroom",
+            "link_recipe": true,
+            "text": "$(item)緋紅$()和$(item)扭曲靈氣蘑菇$()能在$(thing)地獄$()的森林區域找到，在那裡，帶$(aura-zh-cn)的蘑菇與它們沒$(aura-zh-cn)的對應者共同生長。當作為植物魔法學家著手於這些地獄般的區域的時候，這些蘑菇可能會特別有用。"
+        }
+    ]
+}

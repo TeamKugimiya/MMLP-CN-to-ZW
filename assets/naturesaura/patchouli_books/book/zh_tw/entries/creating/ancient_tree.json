@@ -1,0 +1,26 @@
+{
+    "name": "遠古木",
+    "icon": "naturesaura:ancient_leaves",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:wood_stand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "補充局部$(aura-zh-tw)的一個基本方法是種植$(item)遠古木$()。一旦$(item)遠古木樹苗$()被種下了，它會像一般的樹一樣生長，但是它的葉片會緩慢地將周圍的$(aura-zh-tw)回復到正常水平。$(br)但是，在這個過程中，樹本身就不太走運了：當樹葉中的$(aura-zh-tw)被抽取殆盡，它的葉片就會開始腐爛，最後使樹變得僅剩枝幹。"
+        },
+        {
+            "type": "text",
+            "text": "還應指出的是，雖然這種樹在地獄般的區域裡會因為顏色十分搭配而看起來特別美麗，它$(italic)並不會$()在$(thing)主世界$()之外的維度工作，因為主世界是植物能以合適方式成長的唯一區域。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "使用$(l:practices/tree_ritual)森林儀式$()來製作$(item)遠古木樹苗$()",
+            "recipe": "naturesaura:ancient_sapling"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:ancient_planks",
+            "recipe2": "naturesaura:ancient_stick"
+        }
+    ]
+}

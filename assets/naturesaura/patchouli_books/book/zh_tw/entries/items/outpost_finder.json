@@ -1,0 +1,17 @@
+{
+    "name": "窳民之眼",
+    "icon": "naturesaura:outpost_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_overworld",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)探索者地圖$()可以用於輕鬆地找到幾種世界中存在結構。然而，這些地圖無法用於找到所有種類的結構，特別是$(thing)掠奪者前哨站$()。為了解決這個問題，魔法植物學家構造出了$(item)窳民之眼$()。$(item)窳民之眼$()被擲出後，會飛向最近的$(thing)掠奪者前哨站$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)窳民之眼$()",
+            "recipe": "naturesaura:outpost_finder"
+        }
+    ]
+}

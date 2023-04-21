@@ -1,0 +1,17 @@
+{
+    "name": "物品束縛器",
+    "icon": "naturesaura:pickup_stopper",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "很多的機械都需要使用世界中掉落在地上的$(thing)物品$()，但這些物品很容易被檢查機械的人意外撿取。$(br)$(item)物品束縛器$()使得範圍內的物品只能被潛行的人撿起來。它的影響範圍是其周圍的 0 到 8 格，這一範圍會被通入的$(thing)紅石訊號$()強度相對地決定。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)物品束縛器$()",
+            "recipe": "naturesaura:pickup_stopper"
+        }
+    ]
+}

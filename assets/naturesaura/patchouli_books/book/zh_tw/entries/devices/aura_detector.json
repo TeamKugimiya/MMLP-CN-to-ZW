@@ -1,0 +1,17 @@
+{
+    "name": "靈氣探測器",
+    "icon": "naturesaura:aura_detector",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在與$(aura-zh-cn)打交道時，無需親自到達現場就能知道當地的$(aura-zh-cn)水平是很有益的。只要給$(item)靈氣探測器$()接上一個$(item)比較器$()，它就會根據周圍的靈氣存量輸出$(thing)紅石$()訊號。在這方面，它的顯示範圍類似於$(l:items/eye)環境之眼$()的顯示範圍。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)靈氣探測器$()",
+            "recipe": "naturesaura:aura_detector"
+        }
+    ]
+}

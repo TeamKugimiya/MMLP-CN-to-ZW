@@ -1,0 +1,12 @@
+{
+    "name": "自然衰退",
+    "icon": "naturesaura:decayed_leaves",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "當一片區域的$(aura-zh-cn)被抽取到一定地步，使得草木和植被不再含有維生所系的自然能量時，$(thing)自然衰退$()就會發生。所有的$(item)草$()、樹上的樹葉和其他植物都會衰退並腐爛。區域內$(aura-zh-cn)被消耗得越多，衰退的程度就越嚴重。$(br)似乎這種效果只會在$(thing)主世界$()和$(thing)地獄$()發生。"
+        }
+    ]
+}

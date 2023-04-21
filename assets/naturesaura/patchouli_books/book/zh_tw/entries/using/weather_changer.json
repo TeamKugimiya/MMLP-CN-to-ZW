@@ -1,0 +1,21 @@
+{
+    "name": "移雲器",
+    "icon": "naturesaura:weather_changer",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "偶爾，對於一個魔法植物學家來說，可能需要改變一件事，這件事屬於能推動我們日常行動，並決定我們何時可以外出的許多事情之一：$(thing)天氣$()。有了$(item)移雲器$()這個願望變得切實可能。在接受扔在地上的特定物品並啟用後，這個設備會將$(thing)天氣改變$()成想要的種類，並在該過程中消耗$(aura-zh-cn)。"
+        },
+        {
+            "type": "text",
+            "text": "下列物品可以用於啟用設備，並且會將天氣變成不同的種類：$(item)向日葵$()會產生晴天，$(item)暗海磷石$()會導致下雨，最後，$(item)火焰彈$()會召喚暴風雨。扔出更多物品會增加天氣持續的大約時間，但也會增加天氣轉換時的$(aura-zh-cn)消耗。$(br)此外，當天氣已經是想要的類型時，$(item)移雲器$()不會停止自身的工作。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)移雲器$()",
+            "recipe": "naturesaura:weather_changer"
+        }
+    ]
+}

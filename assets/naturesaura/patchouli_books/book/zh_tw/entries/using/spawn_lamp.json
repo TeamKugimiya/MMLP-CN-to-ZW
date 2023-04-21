@@ -1,0 +1,17 @@
+{
+    "name": "聖域之燈",
+    "icon": "naturesaura:spawn_lamp",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)聖域之燈$()除了能作為不錯的裝飾，還有另一個非常實用的功能：在通入$(thing)紅石訊號$()時，它會使附近最多 48 格內的任何怪物$(thing)停止出現$()，不管亮度等級是多少。其中，紅石訊號的強度決定了影響的範圍。每次一個怪物的出現被停止，都會消耗少量$(aura-zh-cn)。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)聖域之燈$()$(p)$(italic)防怪之燈$()",
+            "recipe": "naturesaura:spawn_lamp"
+        }
+    ]
+}

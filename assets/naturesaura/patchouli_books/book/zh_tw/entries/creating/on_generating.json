@@ -1,0 +1,17 @@
+{
+    "name": "製造靈氣",
+    "icon": "naturesaura:gold_leaf",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:wood_stand",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)製造$()$(aura-zh-cn)是使用靈氣的魔法植物學家很快就需要做的事情。在進入正題之前，需要注意的是，存在很多唯一目的就是製造$(aura-zh-cn)的$(thing)設備$()，讀者可以在之後的文章中發現它們。預設情況下，大多數這些設備的$(aura-zh-cn)$(thing)製造強度$()不能製造超過$(l:items/eye)環境之眼$()的測量範圍的$(aura-zh-cn)。"
+        },
+        {
+            "type": "text",
+            "text": "一旦區域內的$(aura-zh-cn)接近了這個上限，製造設備就會開始各行其是。有的會完全關閉，有的會繼續之前的行為，但不會產生$(aura-zh-cn)。當然，它們可以使用$(l:devices/aura_detector)靈氣檢測器$()或類似的裝置手動關閉。$(p)在更後面，它們的這種行為也能透過$(l:creating/generator_limit_remover)製造催化劑$()來改變。"
+        }
+    ]
+}

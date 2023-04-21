@@ -1,0 +1,17 @@
+{
+    "name": "自然之癒",
+    "icon": "minecraft:enchanted_book",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_tools",
+    "flag": "mod:enchantability",
+    "pages": [
+        {
+            "type": "text",
+            "text": "能透過使用$(aura-zh-cn)修理的工具固然不錯，但在魔法植物學家面對兇惡的敵人和高聳的斷崖時，工具的修理似乎幫不上多少忙。這時候，$(thing)治療自己$()的能力反而很有用。"
+        },
+        {
+            "type": "text",
+            "text": "在獲得$(item)自然修補$()附魔書之後，可以將其插入到$(item)終界箱$()的附魔槽裡來獲得$(item)自然之癒$()狀態。當使用者處在這狀態下，其生命會在$(thing)潛行$()時慢慢回復，同時消耗其物品欄內$(aura-zh-cn)容器儲存的$(aura-zh-cn)。"
+        }
+    ]
+}

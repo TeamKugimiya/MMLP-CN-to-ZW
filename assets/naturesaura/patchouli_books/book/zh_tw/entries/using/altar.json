@@ -1,0 +1,43 @@
+{
+    "name": "自然祭壇",
+    "icon": "naturesaura:nature_altar",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:aura_bottle_overworld",
+    "priority": true,
+    "turnin": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在前期，使用$(item)自然祭壇$()一種原始但有效的$(aura-zh-cn)收集方法。在搭建了下頁展示的結構後，祭壇就會開始緩慢地吸取附近的$(aura-zh-cn)。不過，祭壇吸取$(aura-zh-cn)的力量不夠強，無法透過將$(aura-zh-cn)抽取殆盡來對環境造成傷害。$(br)被收集的$(aura-zh-cn)可以用於接下來幾頁展示的用途。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:altar",
+            "text": "$(item)自然祭壇$()的組裝方法。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "使用$(l:practices/tree_ritual)森林儀式$()製作$(item)自然祭壇$()",
+            "recipe": "naturesaura:nature_altar"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:gold_brick",
+            "text": "製作用於$(item)自然祭壇$()多方塊結構中的$(item)黃金石磚$()"
+        },
+        {
+            "type": "text",
+            "text": "當$(item)自然祭壇$()收集到了足夠的$(aura-zh-cn)，它就能開始將其灌注入物品或特定材料中。要進行灌注，只需將任意材料放在祭壇上，並等待灌注完成即可。$(br2)在未來，你可能會遇到在灌注時需要祭壇附近存在其他種類$(aura-zh-cn)的材料，這種情況下將需要建造$(l:using/crimson_altar)猩紅祭壇$()。"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)灌注鐵$()。這是一種被$(aura-zh-cn)祝福的材料，這種祝福使其能被用於多種魔法的$(thing)自然物品$()。$(br)注意，同樣的灌注也能對這種材料的方塊形式生效。",
+            "recipe": "naturesaura:infused_iron"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)灌注石$()，一種使用$(aura-zh-cn)灌注過的塵世材料。",
+            "recipe": "naturesaura:infused_stone"
+        }
+    ]
+}

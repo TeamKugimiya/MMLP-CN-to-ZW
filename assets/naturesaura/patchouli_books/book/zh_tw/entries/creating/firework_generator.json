@@ -1,0 +1,25 @@
+{
+    "name": "煙火凝望",
+    "icon": "naturesaura:firework_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)煙火$()看起來很漂亮，但製造效果相當好的煙火就有點昂貴。$(item)煙火凝望$()似乎對此特別認同：它會消耗$(thing)掉落$()在其附近地面的煙火，並將煙火發射到天上。一旦煙火爆炸，其爆炸和多彩能量就會被吸收，然後，基於煙火的複雜程度，"
+        },
+        {
+            "type": "text",
+            "text": "或多或少的$(aura-zh-tw)就會產生並向環境擴散。對於複雜度, 原材料的$(thing)價值$()是重中之重，但是$(thing)煙火之星$()的數量、$(thing)顏色$()的數量和其他幾種因素也會影響每一發煙火產生的$(aura-zh-tw)數量。"
+        },
+        {
+            "type": "text",
+            "text": "此外，值得注意的是，當煙火已經被$(item)煙火凝視$()發射到空中，或$(item)煙火凝視$()正在吸收煙火的能量時，附近掉落的額外煙火會被吸收，但是不會產生$(aura-zh-cn)。這意味著最好設置某種$(thing)定時器$()來實現其自動化。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:firework_generator",
+            "text": "製造$(item)煙火凝望$()"
+        }
+    ]
+}

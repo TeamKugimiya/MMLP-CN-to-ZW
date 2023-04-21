@@ -1,0 +1,22 @@
+{
+    "name": "探天者的盔甲",
+    "icon": "naturesaura:sky_chest",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "植物學家在穿戴$(thing)探天者$()的盔甲時會覺得自己宛若神明。不僅因為這套盔甲能像$(l:items/infused_iron_armor)用灌注鐵製作的對應盔甲$()一樣使用$(aura-zh-cn)修復，更因為它提供的$(thing)套裝效果$()：當穿戴這套盔甲的所有組件時（或者把胸甲換成$(item)鞘翅$()），穿戴者的$(thing)移動速度$()會增加。此外，他們可$(thing)踏上$()方塊的最大高度會被增加，使其免需經常跳躍。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:sky_helmet",
+            "recipe2": "naturesaura:sky_chest"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:sky_pants",
+            "recipe2": "naturesaura:sky_shoes"
+        }
+    ]
+}

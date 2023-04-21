@@ -1,0 +1,25 @@
+{
+    "name": "靈氣場生成器",
+    "icon": "naturesaura:field_creator",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "人類兩個最重要的活動之一就是$(thing)破壞$()方塊。但這一活動需要不少力量和努力，而且持續時間太長的話還會讓人十分疲憊。$(br)$(item)靈氣場生成器$()能生成一種緻密的$(aura-zh-cn)流動場，場域的強度強到足夠$(thing)破壞$()其中的方塊。"
+        },
+        {
+            "type": "text",
+            "text": "要建立這種場域，首先要將兩個$(item)靈氣場生成器$()隔著方塊分開放置。然後，與其中之一潛行互動，再與另一個不潛行互動，使兩個生成器間建立連接。$(br)在給予其中之一一個$(thing)紅石訊號$()，並等待一個短暫的場引導時間後，$(aura-zh-cn)場就會產生，使二者間的任何方塊被破壞並掉落到地上。"
+        },
+        {
+            "type": "text",
+            "text": "當然，破壞方塊也好，開頭的引導時間也好，都會需要環境中的一點$(aura-zh-cn)。此外，場啟用時還會消耗少量$(aura-zh-cn)作為維持場的成本。$(br)需要獲得$(thing)剪$()下來的特定方塊的植物學家無需擔心：在兩個$(item)靈氣場生成器$()之一上放一個掛有$(item)剪刀$()的$(item)物品框$()會使得中間可以剪的方塊都被剪下來，其他方塊則會被照常破壞。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作兩個$(item)靈氣場生成器$()",
+            "recipe": "naturesaura:field_creator"
+        }
+    ]
+}

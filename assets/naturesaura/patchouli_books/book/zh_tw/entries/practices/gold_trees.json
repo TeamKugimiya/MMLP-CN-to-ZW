@@ -1,0 +1,29 @@
+{
+    "name": "閃耀之樹",
+    "icon": "naturesaura:gold_leaf",
+    "category": "naturesaura:practices",
+    "priority": true,
+    "turnin": "naturesaura:gold_leaf",
+    "pages": [
+        {
+            "type": "text",
+            "text": "多年來，植物學家們一直嘗試弄清楚$(aura-zh-cn)承載體的魔法屬性。他們發現了一個始料未及，但又很常見的主題：$(item)黃金$()，似乎總是在人與$(aura-zh-cn)的互動中扮演著一定角色。"
+        },
+        {
+            "type": "spotlight",
+            "text": "要對這種物質的力量進行初次利用，首先需要創造一顆$(item)閃耀之樹$()，這棵樹收穫時會掉落$(item)黃金樹葉$()，一種易碎但又強大的材料。要創造這樣的一棵樹，只需要合成一點$(item)閃耀纖維$()並將其放在一棵樹的樹冠上。之後，時間會帶來更多的閃耀。",
+            "item": "naturesaura:gold_leaf",
+            "link_recipe": true
+        },
+        {
+            "type": "crafting",
+            "text": "Creating the $(item)Brilliant Fiber$()",
+            "recipe": "naturesaura:gold_fiber"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)黃金樹葉$()被收穫之後可以輕鬆地被碾碎成$(item)金葉粉$()，這種粉末能放在地上，並充當$(l:practices/tree_ritual)森林儀式$()的組成部分。",
+            "recipe": "naturesaura:gold_powder"
+        }
+    ]
+}

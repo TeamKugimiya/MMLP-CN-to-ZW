@@ -1,0 +1,23 @@
+{
+    "name": "環境之眼",
+    "icon": "naturesaura:eye",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:wood_stand",
+    "turnin": "naturesaura:eye",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "在與$(aura-zh-cn)打交道時，自然情況下，很難把握指定區域或儲存設備裡有多少$(aura-zh-cn)。不過，$(item)環境之眼$()有向植物學家顯示這一資訊的力量：製作出來後，只需將其放在快捷欄的任何位置就能顯示以下幾種資訊："
+        },
+        {
+            "type": "text",
+            "text": "一個顯示條會顯示$(aura-zh-cn)儲存方塊內儲存的$(aura-zh-cn)量，顯示條全滿的話意味著這個方塊的$(aura-zh-cn)儲存已經到達了上限。$(br)在個人的視野中，左上角會多出一個顯示條來顯示使用者所在區域附近$(aura-zh-cn)的飽和度。$(aura-zh-cn)處於自然的預設值時該顯示條會充滿一半。不過，$(item)環境之眼$()的力量有限，這意味著當$(aura-zh-cn)超過顯示條的任何一端後，$(item)環境之眼$()無法告訴你具體水平。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "使用$(l:practices/tree_ritual)森林儀式$()製作$(item)環境之眼$()",
+            "recipe": "naturesaura:eye"
+        }
+    ]
+}

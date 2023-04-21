@@ -1,0 +1,26 @@
+{
+    "name": "自動建構器",
+    "icon": "naturesaura:auto_crafter",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "植物學家人生中的一大重要部分就是$(thing)製作$()物品，更確切的說，在$(item)工作台$()上製作物品。不過，這個過程很容易變得枯燥且耗時，尤其是對於需要定期擺放和使用的配方。在這個問題上，$(item)自動建構器$()就很方便了：它可以製造任何可手工在工作台合成的物品，但是無需任何人工幫助。"
+        },
+        {
+            "type": "text",
+            "text": "為了實現這一點，首先需要建造一個下一頁中以$(item)自動建構器$()為中心的$(thing)結構$()。放置好後，箭頭的指向就指示了$(thing)合成配方的上方$()，就像在$(item)工作台$()中指向最上面一排格子一樣。合成需要的原料必須按照配方的順序，以掉落物的形式位於$(item)上古原木$()之上。一旦配方就位，數秒之後產物就會從$(item)自動建構器$()的$(thing)底部$()掉出。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:auto_crafter",
+            "text": "建造自動合成過程需要的結構"
+        },
+        {
+            "type": "crafting",
+            "text": "製造$(item)自動建構器$()",
+            "recipe": "naturesaura:auto_crafter"
+        }
+    ]
+}

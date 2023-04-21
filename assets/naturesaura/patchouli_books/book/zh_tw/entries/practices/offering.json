@@ -1,0 +1,62 @@
+{
+    "name": "祭祀諸神",
+    "icon": "naturesaura:offering_table",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)灌注鐵$()是相當好的材料，也蘊含足夠的自然力量來產生各式各樣的作用。但對於更高級的自然機理，則需要一種更強大的金屬。為了獲得這種金屬，也為了獲得許多其他東西，就需要$(item)祭祀諸神$()。$(br)一直以來，諸神祇都是最強大的存在，因此，它們也掌握著人類所知最強大的金屬。"
+        },
+        {
+            "type": "text",
+            "text": "要構造一種呼喚諸神本身的方法，只需放下一張$(item)祭祀台$()，並按下頁顯示那樣在周圍布置鮮花。要開始祭神，需要先在台上的碗裡放置任意數量你想要供奉的物品。然後，在$(item)祭祀台$()附近扔下能呼喚諸神的物品，大多數情況下，這個物品是$(item)呼喚之魂$()。$(br)如果一切順利的話，請求的物品就會從天空如雨般落下。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:offering_table",
+            "text": "$(item)祭祀諸神$()的準備過程。可以使用任意種類的花。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)祭祀台$()",
+            "recipe": "naturesaura:offering_table"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)呼喚之魂$()",
+            "recipe": "naturesaura:calling_spirit"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "向諸神請求$(item)蒼穹錠$()，一種用神力灌注的強大金屬。",
+            "recipe": "naturesaura:sky_ingot"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "使用$(item)汙染黃金$()向諸神請求$(item)蒼穹錠$()會帶來更好的產出。",
+            "recipe": "naturesaura:sky_ingot_from_gold"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "將$(item)愉悅印記$()交換為其更強的版本，$(item)欣快印記$()",
+            "recipe": "naturesaura:token_euphoria"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "將$(item)恐懼印記$()交換為其更強的版本，$(item)驚駭印記$()",
+            "recipe": "naturesaura:token_terror",
+            "anchor": "terror"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "將$(item)憤怒印記$()交換為其更強的版本，$(item)狂怒印記$()",
+            "recipe": "naturesaura:token_rage"
+        },
+        {
+            "type": "naturesaura:offering",
+            "text": "將$(item)憂傷印記$()交換為其更強的版本，$(item)悲痛印記$()",
+            "recipe": "naturesaura:token_grief"
+        }
+    ]
+}

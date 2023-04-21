@@ -1,0 +1,21 @@
+{
+    "name": "陰影之杖",
+    "icon": "naturesaura:cave_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "有時，特別是嘗試創造出刷怪區域時，附近的洞穴和$(thing)暗點$()需要被照亮。然而，這些地點常常有點難以定位，只是為了找到它們卻產生了許多無必要的挖掘。$(br)$(item)陰影之杖$()使這個過程變得高效很多：啟用時，它會$(thing)可視化$()啟用點大約 30 格內的所有黑暗地點，"
+        },
+        {
+            "type": "text",
+            "text": "持續時間大約 30 秒，給任何人充足的時間來挖向這些地方並照亮它們。$(br)可視化出的區域都是自然或人工光源低到可以刷怪的地方。$(p)自然地，以這種方式尋找並顯示這些區域會需要$(l:items/aura_cache)靈氣快取$()或類似儲存中的大量靈氣。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)陰影之杖$()",
+            "recipe": "naturesaura:cave_finder"
+        }
+    ]
+}

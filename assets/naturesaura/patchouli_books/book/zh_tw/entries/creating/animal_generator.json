@@ -1,0 +1,25 @@
+{
+    "name": "凡俗解脫之物",
+    "icon": "naturesaura:animal_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "從自然物質中創造$(aura-zh-cn)是一把雙刃劍。特別是當你使用$(item)凡俗解脫之物$()的時候：在這個設備附近擊殺被動生物會解放它們的靈魂，並將其以大量$(aura-zh-cn)的形式釋放到環境中。在這方面，幼年動物的靈魂不夠完整，導致釋放出的$(aura-zh-cn)較少。"
+        },
+        {
+            "type": "text",
+            "text": "此外，一隻動物活得$(thing)越久$()，死亡時產生的$(aura-zh-cn)就越多，而且增加量十分顯著。這就使得建造專用設備，讓動物們在被屠宰前活得久一點，更為可行，效率也更高。要收集最完整的動物靈魂，需要在動物誕生後等待其成長約$(thing)一個半小時$()。"
+        },
+        {
+            "type": "text",
+            "text": "需要記住的是，被吸收靈魂的動物不會掉落通常的戰利品。此外，當$(item)凡俗解脱之物$()正在轉換靈魂時，向其提供新的死亡會導致新的靈魂無法被釋放，也不會產生戰利品。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:animal_generator",
+            "text": "製造$(item)凡俗解脫之物$()"
+        }
+    ]
+}

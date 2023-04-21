@@ -1,0 +1,18 @@
+{
+    "name": "湮滅玫瑰",
+    "icon": "naturesaura:end_flower",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:end_flower",
+    "pages": [
+        {
+            "type": "text",
+            "text": "眾所周知，$(thing)終界龍$()是一隻相當兇猛的怪物。它比任何生物都更能保護$(thing)終界$()，但它是可以被擊敗的。擊殺終界龍代表的不僅是大量的驕傲和一個終界龍後代的象徵，也代表著$(item)湮滅玫瑰$()。龍死亡時，玫瑰會在終界島嶼的地面萌發，使其可以被植物學家收穫並放置在任何維度。"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:end_flower",
+            "text": "這種玫瑰蘊含大量的$(aura-zh-tw)，這些$(aura-zh-tw)可以被一種有趣的方式提取：在靠近玫瑰的地方丟一個$(item)終界之眼$()會使得玫瑰變成$(aura-zh-tw)並散布到環境中。這個過程一旦開始就無法停止，此時玫瑰也無法被採集。注意，這個過程$(italic)不$()需要$(l:creating/generator_limit_remover)製造催化器$()。",
+            "link_recipe": true
+        }
+    ]
+}

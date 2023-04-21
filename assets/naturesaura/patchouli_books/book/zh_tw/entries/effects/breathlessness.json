@@ -1,0 +1,12 @@
+{
+    "name": "窒息",
+    "icon": "minecraft:white_wool",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "一片區域內$(aura-zh-cn)的消失不但會影響區域內的植物，還會影響需要$(item)氧氣$()進行呼吸的生物。這些生物會迅速注意到，越多的$(aura-zh-cn)被消耗，它們進行呼吸就越困難：它們的肺部會開始產生一種不定時的刺痛，生命回復也變得異常困難。"
+        }
+    ]
+}

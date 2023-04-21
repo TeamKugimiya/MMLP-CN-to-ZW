@@ -1,0 +1,28 @@
+{
+    "name": "靈氣裝瓶",
+    "icon": "naturesaura:aura_bottle{stored_type:'naturesaura:overworld'}",
+    "category": "naturesaura:practices",
+    "advancement": "naturesaura:wood_stand",
+    "turnin": "naturesaura:aura_bottle_overworld",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(aura-zh-cn)本身及其在世上的出現長久以來都是研究者眼中的謎團。當時，他們曾使用$(item)玻璃瓶$()來收集並進一步分析$(aura-zh-cn)，因為這樣會使$(aura-zh-cn)變得肉眼可見。很快，來自不知情平民的抱怨開始煩擾研究者們：「其他科學家已經開發出玻璃瓶的用途了，你們這樣會導致新問題」，他們說。"
+        },
+        {
+            "type": "crafting",
+            "text": "因此，也為了讓所有語無倫次胡扯的人閉上嘴，研究者們創造了$(item)瓶與塞$()：一種與玻璃瓶類似，但又稍微有不同的器皿，只有一種用途，就是拿在手上與空氣互動收集$(aura-zh-cn)。",
+            "recipe": "naturesaura:bottle_two_the_rebottling"
+        },
+        {
+            "type": "spotlight",
+            "item": "naturesaura:aura_bottle{stored_type:'naturesaura:overworld'}",
+            "link_recipe": true,
+            "text": "當然，根據你當前所在世界的不同，$(aura-zh-cn)的種類也會稍微不同。例如，在普通世界，$(aura-zh-cn)可以以陽光的形式被收集。但在地獄領域，$(aura-zh-cn)只能被以鬼魂的形式收集。在終末之地領域，$(aura-zh-cn)則會以過剩黑暗的形式出現。"
+        },
+        {
+            "type": "text",
+            "text": "此外，這種方式的$(aura-zh-cn)收集可以使用$(item)發射器$()輕鬆地進行自動化：將空的$(item)瓶與塞$()放進發射器，前者就會被打開射出，並在這個過程中裝滿$(aura-zh-cn)。由於瓶子並不會在之後被吸回發射器，自動化過程中還需要像$(item)漏斗$()這樣的額外工具。"
+        }
+    ]
+}

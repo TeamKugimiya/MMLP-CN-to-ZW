@@ -1,0 +1,26 @@
+{
+    "name": "釀造者儀式",
+    "icon": "naturesaura:potion_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "如同塵歸塵，土歸土，$(aura-zh-cn)和等價的魔法的$(item)藥水$()之間也能實現類似的自然轉換。特別地，$(item)滯留型藥水$()有著特定的魔法能力，使人們可以提取其中的效果並將其高效地轉換為$(aura-zh-cn)。$(p)要實現這點，僅需建造一個下一頁中描述的$(item)釀造者儀式$()。"
+        },
+        {
+            "type": "text",
+            "text": "然後，在附近扔下一個帶有正面持續效果的$(item)滯留型藥水$()，這會導致藥水的效果被消耗並被轉換為$(aura-zh-cn)。無需多言，效果的時長和等級越好，產生的$(aura-zh-cn)越多。$(br)但是注意，一次只能轉換一種效果，同時向儀式投擲多個藥水只會導致藥水中的力量被浪費。"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:potion_generator",
+            "text": "以$(item)滞留吸收器$()為中心搭建的$(item)釀造者儀式$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:potion_generator",
+            "text": "製作$(item)滞留吸收器$()"
+        }
+    ]
+}

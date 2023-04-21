@@ -1,0 +1,21 @@
+{
+    "name": "樹冠減光器",
+    "icon": "naturesaura:oak_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "任何和樹打交道的人，在人生中的某個時刻，都肯定會面對這個著名問題：一株$(item)橡木樹苗$()長成了一顆$(thing)大樹$()，變得難以觀察、管理和砍伐。$(br)$(item)樹冠減光器$()是一個一舉兩得的方塊：$(br)在種有橡樹的最多 10 格以內的地方放置此設備，就會使得"
+        },
+        {
+            "type": "text",
+            "text": "樹苗只長成通常大小。$(br)在此過程中，長成大樹的那部分額外的自然能量會被轉變為相當多的$(aura-zh-tw)，並被釋放到環境中。$(br)值得注意的是，由於$(thing)主世界$()領域是前述樹木唯一自然生長的區域，主世界也是該設備起效的唯一地方。$(br)十分明顯，利用它的一個好辦法是將其放在自動$(thing)林場$()中。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:oak_generator",
+            "text": "製造$(item)樹冠減光器$()"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "name": "嬗變催化器",
+    "icon": "naturesaura:conversion_catalyst",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:using/altar)自然祭壇$()對於使用$(aura-zh-cn)灌注特定物品來說很有用，但是，祭壇也能助力於將物品嬗變成另一種物品。$(br)要實現這一點，只需製作$(item)嬗變催化器$()，並將其放在祭壇周圍 4 個更低的$(item)黃金石磚$()方塊上，然後像平時一樣放置原料。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "使用$(l:practices/tree_ritual)森林儀式$()製作$(item)嬗變催化器$()。",
+            "recipe": "naturesaura:conversion_catalyst"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "使用終界的$(aura-zh-cn)製作$(item)龍息$()",
+            "recipe": "naturesaura:breath"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "使用殭屍的遺骸召喚$(item)皮革$()",
+            "recipe": "naturesaura:leather"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "使用俗世的穀粒製造$(item)靈魂砂$()",
+            "recipe": "naturesaura:soul_sand"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "用地獄的蕈類製作$(item)地獄疙瘩$()",
+            "recipe": "naturesaura:nether_wart"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "從地獄的礦物中召喚出$(item)海磷碎片$()",
+            "recipe": "naturesaura:prismarine"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "使得$(thing)水$()緩緩出現在空$(item)玻璃瓶$()裡",
+            "recipe": "naturesaura:water"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "將$(item)木炭$()變成$(item)煤炭$()",
+            "recipe": "naturesaura:coal"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)追跡之箭$()",
+            "recipe": "naturesaura:arrow"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)歌萊花$()",
+            "recipe": "naturesaura:chorus"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)發酵蜘蛛眼$()",
+            "recipe": "naturesaura:fermented"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)拴繩$()",
+            "recipe": "naturesaura:lead"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "淨化$(item)毒馬鈴薯$()",
+            "recipe": "naturesaura:potato"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)海磷晶體$()",
+            "recipe": "naturesaura:prismarine_crystal"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)兔子腳$()",
+            "recipe": "naturesaura:rabbit_foot"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)鑲金黑石$()",
+            "recipe": "naturesaura:gilded_blackstone"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)緋紅蕈菇$()",
+            "recipe": "naturesaura:crimson_fungus"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "製作$(item)扭曲蕈菇$()",
+            "recipe": "naturesaura:warped_fungus"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "將$(item)蘋果$()變成$(item)雞蛋$()",
+            "recipe": "naturesaura:egg"
+        },
+        {
+            "type": "naturesaura:altar",
+            "text": "將$(item)水$()變成$(item)牛奶$()$(p)$(italic)就像耶穌一樣$()",
+            "recipe": "naturesaura:milk"
+        }
+    ]
+}

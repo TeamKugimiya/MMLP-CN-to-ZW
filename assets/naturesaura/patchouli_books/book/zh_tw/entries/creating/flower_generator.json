@@ -1,0 +1,25 @@
+{
+    "name": "草食性吸收器",
+    "icon": "naturesaura:flower_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "眾所周知，一類必定含有大量$(aura-zh-cn)的世俗物品是各種$(item)花$()。$(item)草食性吸收器$()利用了這一點，將其放置在地上，草食性吸收器就會消耗周圍的任何小花，並將其能量轉換為$(aura-zh-cn)。"
+        },
+        {
+            "type": "text",
+            "text": "提醒一下，一直向它提供同一種花朵會使其失去消耗這種花朵產生$(aura-zh-tw)的能力。$(br)這就意味著，如果要提高它的效率，就需要逐一提供$(thing)不同種類$()的花朵。$(br)要使吸收器達到最高效率，需要大約六種不同的花朵。"
+        },
+        {
+            "type": "text",
+            "text": "此外，需要說明的是，由於提供給吸收器的種種花朵自然情況下只會出現在$(thing)主世界$()維度，這個機器也只會在那運作。在其他維度，例如更$(thing)地獄般$()的區域，這個機器不會產生效果。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:flower_generator",
+            "text": "製造$(item)草食性吸收器$()"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "烈焰之眼",
+    "icon": "naturesaura:fortress_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_nether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "如果一個人想找到$(thing)要塞$()，他可以借助$(item)終界之眼$()的能力，也就是擲出後，緩慢朝著最近的指定結構移動，並以此指出前往的方向。在$(item)烈焰之眼$()上可以觀察到類似的行為，但是與尋找要塞不同，它會定位最近的$(thing)地獄要塞$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)烈焰之眼$()",
+            "recipe": "naturesaura:fortress_finder"
+        }
+    ]
+}

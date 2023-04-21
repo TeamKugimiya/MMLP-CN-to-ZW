@@ -1,0 +1,21 @@
+{
+    "name": "財富之杖",
+    "icon": "naturesaura:loot_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:offering",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在世界各地都能找到不同種類的$(thing)寶藏$()，包括裝得滿滿當當的$(item)箱子$()、$(item)儲存礦車$()等等。$(p)$(item)財富之杖$()能揭示這些財寶，讓它們更容易被找到。揮舞$(item)財富之杖$()，它就會在一分鐘內$(thing)醒目提示$() 64 格半徑內的每個儲存容器。"
+        },
+        {
+            "type": "text",
+            "text": "這個時長給了使用者足夠的時間前往這個用魔法變得可視的位置，並收集財寶。$(p)自然，要讓$(item)財富之杖$()能以這種方式發現財寶，需要消耗$(l:items/aura_cache)靈氣快取$()中相當數量的$(aura-zh-cn)。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)財富之杖$()",
+            "recipe": "naturesaura:loot_finder"
+        }
+    ]
+}

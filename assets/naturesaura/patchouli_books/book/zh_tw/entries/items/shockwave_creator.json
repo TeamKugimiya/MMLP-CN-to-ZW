@@ -1,0 +1,17 @@
+{
+    "name": "狂怒護身符",
+    "icon": "naturesaura:shockwave_creator",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)狂怒護身符$()只需要放在物品欄的任意位置，就能使穿戴者集中他們的力量。然後，當穿戴者在恰當的地方$(thing)潛行$()並$(thing)跳躍$()，就能以足夠強的力量踐踏地面，創造出傷害附近生物的$(item)衝擊波$()。$(br)當然，這種能力會消耗一些$(l:items/aura_cache)靈氣快取$()中儲存的$(aura-zh-cn)。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)狂怒護身符$()",
+            "recipe": "naturesaura:shockwave_creator"
+        }
+    ]
+}

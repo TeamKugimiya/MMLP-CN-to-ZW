@@ -1,0 +1,16 @@
+{
+    "name": "自然修補",
+    "icon": "minecraft:enchanted_book",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_tools",
+    "pages": [
+        {
+            "type": "text",
+            "text": "認知到了$(l:items/infused_iron_tools)灌注鐵工具$()的力量後，你可能會想讓其他工具也有灌注鐵工具中的一些特殊能力，特別是在$(aura-zh-cn)幫助下的$(thing)自我修復$()。$(item)自然修補$()附魔能給予任何工具或盔甲這種能被$(aura-zh-cn)修復的能力，只要使用者攜帶著$(l:items/aura_cache)靈氣快取$()或類似的儲存設備。"
+        },
+        {
+            "type": "text",
+            "text": "要進行工具修復，除了這個附魔還需要手持該物品並$(thing)潛行$()。$(p)需要指出的是，雖然不是極其稀有，這個附魔的出現率也少到和$(item)搶奪$()相近。"
+        }
+    ]
+}

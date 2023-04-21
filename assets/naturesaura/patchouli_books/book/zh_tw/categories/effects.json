@@ -1,0 +1,6 @@
+{
+    "name": "靈氣失衡",
+    "description": "抽取世界中的$(aura-zh-cn)或者向其添加額外的靈氣就會導致$(thing)靈氣失衡$()——而這$(thing)靈氣失衡$()同時有著好的和壞的效果。本章節記載著這些效果。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/effects.png",
+    "sortnum": 20
+}

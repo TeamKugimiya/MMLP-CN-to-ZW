@@ -1,0 +1,17 @@
+{
+    "name": "猩紅增生",
+    "icon": "naturesaura:nether_grass",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "如同在$(l:effects/plant_boost)植物增生$()中提及的一样，過量的$(aura-zh-cn)會轉移至植物中去。$(thing)地獄$()中也可觀測到類似的現象：如果$(aura-zh-cn)水平足夠高，$(item)草$()就會在區域內的任何$(item)地獄石$()上生長。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:nether_grass_powder",
+            "text": "使用$(l:effects/effect_powder)荒蕪之粉$()可以抑制此效果。"
+        }
+    ]
+}

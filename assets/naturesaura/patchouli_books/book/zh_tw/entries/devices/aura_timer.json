@@ -1,0 +1,25 @@
+{
+    "name": "紅石靈氣蒸發器",
+    "icon": "naturesaura:aura_timer",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "有些$(thing)紅石$()設計，特別是比較複雜的那些，可能會需要建造一種以特定$(thing)時間間隔$()觸發的設備——一個$(item)定時器$()。對於經驗不足的工程師來說，這可能會是一項令人生畏的任務，但$(item)紅石靈氣蒸發器$()能大幅降低其中的難度。$(br)設備中央的灌注鐵碗可以容納任何種類的$(l:practices/aura_bottle)瓶裝靈氣$()，"
+        },
+        {
+            "type": "text",
+            "text": "而這些$(aura-zh-cn)會以精確穩定的速度被蒸發。每次$(aura-zh-cn)被澈底蒸發，設備就會短暫發出$(thing)紅石訊號$()，然後$(aura-zh-cn)就會流回碗中。$(br)向設備插入的$(aura-zh-cn)的種類、$(aura-zh-cn)瓶的數量決定了每次觸發紅石的間隔時間：一瓶$(thing)陽光$()能持續一秒，一瓶$(thing)鬼魂$()則是一分鐘，一瓶$(thing)黑暗$()是一小時。這意味著，如果有需要的話，紅石訊號的頻率能減少到每 64 小時一次。"
+        },
+        {
+            "type": "text",
+            "text": "大多數情況下，手動放入$(aura-zh-cn)瓶應該就夠了。不過如果有需要，也能透過任何$(thing)自動化$()手段插入和抽出$(aura-zh-cn)瓶。$(br)向設備提供$(thing)紅石訊號$()可以輕鬆地重置其中的蒸發過程。$(br)除此之外，裝備$(l:items/eye)環境之眼$()時看向設備還能看見一次蒸發的總時長和每次蒸發的剩餘時長。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)紅石靈氣蒸發器$()",
+            "recipe": "naturesaura:aura_timer"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "不穩定爆發",
+    "icon": "minecraft:tnt",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:negative_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "當一個區域內的$(aura-zh-cn)水平非常之低，低到了$(item)自然腐敗$()已經腐敗完了能腐敗的植物，但是$(aura-zh-cn)水平依然不提升的話，自然本身就會失去穩定性從而導致$(item)不穩定爆發$()：$(thing)爆炸$()會在地表大範圍內零星發生，它的嚴重性和發生間隔取決於靈氣失衡的嚴重程度。"
+        }
+    ]
+}

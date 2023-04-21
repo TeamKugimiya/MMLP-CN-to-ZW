@@ -1,0 +1,21 @@
+{
+    "name": "礦物質聚合",
+    "icon": "minecraft:diamond_ore",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "使用$(l:creating/generator_limit_remover)製造催化器$()，$(aura-zh-cn)可以超過$(l:items/eye)環境之眼$()的顯示限度。這種等級的$(aura-zh-cn)可以讓更高階的靈氣失衡效果$(item)礦物質聚合$()在$(l:effects/effect_powder)慷慨之粉$()的作用下發生。"
+        },
+        {
+            "type": "text",
+            "text": "各種稀有度的$(thing)礦物$()會出現在主世界的$(item)石頭$()方塊或地獄的$(item)地獄石$()方塊中。可以預料的是，聚合礦物時會消耗相當數量的$(aura-zh-tw)。$(p)當然，這種創造能力可以用於某種自動化，或許需要利用$(l:using/field_creator)靈氣領域生成器$()這樣的方塊。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:ore_spawn_powder",
+            "text": "製作$(l:effects/effect_powder)慷慨之粉$()。"
+        }
+    ]
+}

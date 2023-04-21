@@ -1,0 +1,18 @@
+{
+    "name": "製造催化劑",
+    "icon": "naturesaura:generator_limit_remover",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:offering",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "就像在$(l:creating/on_generating)靈氣製造$()部分說的一樣，大多數的$(aura-zh-cn)$(thing)製造設備$()都無法使附近的$(aura-zh-cn)超過某個值。$(item)製造催化劑$()輕鬆地解決了這個問題：將其放在任何$(aura-zh-cn)製造設備下方，就會使得前面說的上限提升，使設備可以製造的$(aura-zh-cn)量遠超原有限制。$(br)這樣做不需要付出任何額外代價。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:generator_limit_remover",
+            "text": "使用印記製作$(item)製造催化劑$()"
+        }
+    ]
+}

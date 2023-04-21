@@ -1,0 +1,26 @@
+{
+    "name": "無感知建造器",
+    "icon": "naturesaura:placer",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "有許多活動需要人的存在才能進行，其中大多數是為了在世界中$(thing)放置$()方塊。這一點，說真的，實在是人力的浪費，尤其是在$(aura-zh-cn)能代為工作的時代。$(item)無感知建造器$()會消耗少量$(aura-zh-cn)作為代價來放置你提供的任何方塊。$(br)建造器會從其頂部的任何$(thing)物品容器$()中收集要用來放置的方塊。"
+        },
+        {
+            "type": "text",
+            "text": "要指定在哪種方塊上進行放置，你需要在建造器上掛一個$(item)物品展示框$()，然後將目標方塊放在展示框裡面。之後建造器就會在大約 $(thing)5 個方塊的範圍內$()將箱子裡的方塊放在展示框指示的方塊上。$(br)舉個例子，在展示框放置一個鵝卵石，在箱子裡放一組木材，之後木材就會被放在附近的鵝卵石上方。$(p)通入一個紅石訊號會使建造器停止放置。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)無感知建造器$()",
+            "recipe": "naturesaura:placer"
+        },
+        {
+            "type": "crafting",
+            "text": "$(item)耕作模板$()可以用在建造器上，使建造器能在$(item)耕地$()上放東西。將模板像普通方塊一樣放在展示框裡就能讓建造器識別。",
+            "recipe": "naturesaura:farming_stencil"
+        }
+    ]
+}

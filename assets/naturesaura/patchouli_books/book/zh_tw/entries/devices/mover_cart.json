@@ -1,0 +1,21 @@
+{
+    "name": "靈氣吸引礦車",
+    "icon": "naturesaura:mover_cart",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "一個很多$(aura-zh-cn)研究者面對的問題是，$(aura-zh-cn)數量足、易獲取，但並不容易進行$(thing)運輸$()。為了解決這個問題，$(item)靈氣吸引礦車$()問世了：它唯一的目的就是在世界中輕鬆地到處運送$(aura-zh-cn)。要進行運輸，需要的只是運輸起點的過量的靈氣和一些$(item)鐵軌$()。"
+        },
+        {
+            "type": "text",
+            "text": "要使用$(item)靈氣吸引礦車$()，首先將它放在鐵軌上。為了讓它能鉤住附近區域的$(aura-zh-cn)並進行移動，礦車需要通過被充能的$(item)激活鐵軌$()。然後，它就會抓取周圍的$(aura-zh-cn)並帶著一起移動，直到遇到未充能的$(item)觸發鐵軌$()。此時它就會讓攜帶的$(aura-zh-cn)離開。$(p)需要記住的是，這樣移動$(aura-zh-cn)的過程中，會$(thing)$(t:| || || |_)損失$()一些過量的靈氣。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)靈氣吸引礦車$()",
+            "recipe": "naturesaura:mover_cart"
+        }
+    ]
+}

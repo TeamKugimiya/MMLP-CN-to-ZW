@@ -1,0 +1,17 @@
+{
+    "name": "粉末操縱器",
+    "icon": "naturesaura:powder_placer",
+    "category": "naturesaura:devices",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:effects/effect_powder)效應粉末$()在約束或製造特定的$(thing)靈氣失衡$()效果時十分有用。$(item)粉末操縱器$()對此能起到極大幫助：在它任意一面相連的箱子中放入$(item)效應粉末$()，這樣當操縱器收到$(thing)紅石脈衝$()的時候就會在世界中放置粉末。"
+        },
+        {
+            "type": "crafting",
+            "text": "類似的，在收到另一個脈衝後，它就會收集放在頂部的粉末，並將粉末收入箱子。",
+            "recipe": "naturesaura:powder_placer"
+        }
+    ]
+}

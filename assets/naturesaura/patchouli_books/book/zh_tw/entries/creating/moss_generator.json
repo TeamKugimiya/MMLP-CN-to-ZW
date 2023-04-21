@@ -1,0 +1,17 @@
+{
+    "name": "沼澤之霍米",
+    "icon": "naturesaura:moss_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "天然$(aura-zh-cn)的一種絕佳來源是覆蓋在方塊上的$(thing)青苔$()。這筆財富可以以$(item)沼澤之霍米$()的形式利用：它會移除周圍任何方塊上的青苔，留下沒有青苔的方塊。每這樣移除一次青苔，它就會產生一點$(aura-zh-cn)並將其散播到環境中。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:moss_generator",
+            "text": "製造$(item)沼澤之霍米$()"
+        }
+    ]
+}

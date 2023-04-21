@@ -1,0 +1,6 @@
+{
+    "name": "利用靈氣",
+    "description": "當從世界中收集$(aura-zh-cn)的時候，每個人都會本能的問：$(italic)「這東西怎麼用？」$()本章節存放解釋這個問題的條目。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/using.png",
+    "sortnum": 15
+}

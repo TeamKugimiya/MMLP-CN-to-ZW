@@ -1,0 +1,17 @@
+{
+    "name": "終界目鏡",
+    "icon": "naturesaura:ender_access",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)終界目鏡$()，簡單來說，是一種手持版本的$(l:using/ender_crate)終界板條箱$()。在用同樣的方式給予$(thing)終界名$()後，手持目鏡進行互動會當場打開儲存空間。在使用的過程中，需要從$(l:items/aura_cache)靈氣快取$()抽取一些$(aura-zh-cn)。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)終界目鏡$()",
+            "recipe": "naturesaura:ender_access"
+        }
+    ]
+}

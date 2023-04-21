@@ -1,0 +1,17 @@
+{
+    "name": "自然儲存",
+    "icon": "naturesaura:aura_cache",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "如果環境中的$(aura-zh-cn)儲存量超出了$(l:items/eye)環境之眼$()中的通常值的一半，$(item)自然儲存$()就會開始發生：對於$(aura-zh-cn)飽和區域周圍攜帶有$(l:items/aura_cache)靈氣快取$()的任何玩家，他們的靈氣快取都會被過飽和的$(aura-zh-cn)$(thing)填充$()。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:cache_powder",
+            "text": "使用$(l:effects/effect_powder)無儲之粉$()可抑制這種效果。"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "關於這本書",
+    "icon": "patchouli:guide_book{'patchouli:book':'naturesaura:book'}",
+    "category": "naturesaura:intro",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)自然靈氣之書$()是一切$(aura-zh-cn)相關資訊的指南，但它可以做很多事情，而不僅僅是顯示文字資訊：書中，你可以看到包括但不限於如何$(thing)製作物品$()與$(thing)搭建結構$()。$(br)此外，透過完成$(item)進度$()，更多的章節會隨時間解鎖——每個新的章節都會以$(thing)紅色圖示$()來歡迎讀者。"
+        },
+        {
+            "type": "text",
+            "text": "更進一步，為了指導讀者開展研究工作，一些章節還會顯示$(thing)橙色圖示$()。這些通知指示了讀者推進研究所必須要進行的下一步。最後，書本首頁有直接通往$(item)進度選單$()的連結，可以讓讀者更好地把握整體進度。"
+        }
+    ]
+}

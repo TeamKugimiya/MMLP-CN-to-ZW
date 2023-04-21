@@ -1,0 +1,24 @@
+{
+    "name": "環境目鏡",
+    "icon": "naturesaura:eye_improved",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:end_flower",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(l:items/eye)環境之眼$()理論上非常有用；但是，許多魔法植物學家掙扎於其對周圍$(aura-zh-cn)的有限測量範圍。這個問題的一個簡單的解決方案是$(item)環境目鏡$()。$(br)雖然與$(item)環境之眼$()的工作方式類似，目鏡在測量範圍方面還是有著很大不同：在測量周圍$(aura-zh-cn)時，目鏡的範圍是$(thing)兩倍大$()。"
+        },
+        {
+            "type": "text",
+            "text": "需要注意，擴展的測顯示條只在$(aura-zh-cn)水平足夠低或高時顯示。$(p)其次，$(item)環境目鏡$()能顯示當前區域在發生的所有$(thing)靈氣失衡$()效果。它們會以圖示的形式顯示在$(aura-zh-cn)條旁邊。可以透過本書$(thing)靈氣失衡$()章節來找出哪個圖示對應哪個效果。"
+        }, {
+            "type": "text",
+            "text": "如果一個效果圖示被打上了交叉，那要麼是個需要未出現的$(l:effects/effect_powder)效應粉$()的效果，要麼是那個效果正被對應粉末抑制。$(br)一個額外的改進是，比起$(item)環境之眼$()需要放在快捷欄工作，$(item)環境目鏡$()只需放在使用者的物品欄內任何地方。$(br)所有其他$(item)環境之眼$()的屬性都如同預料中那樣被$(item)環境目鏡$()繼承。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "使用$(l:practices/tree_ritual)森林儀式$()製作$(item)環境目鏡$()",
+            "recipe": "naturesaura:eye_improved"
+        }
+    ]
+}

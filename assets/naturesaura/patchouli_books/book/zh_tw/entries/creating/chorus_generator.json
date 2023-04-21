@@ -1,0 +1,21 @@
+{
+    "name": "終界高花收割機",
+    "icon": "naturesaura:chorus_generator",
+    "category": "naturesaura:creating",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "一旦$(thing)終末之地$()的強大巨龍被打敗，屠龍者可能會開始探索龍巢周圍的荒蕪浮島。在這麼做時，他會發現$(thing)歌萊$()植物：一種向上萌發，直插天空的花。這種花含有數量可觀的$(aura-zh-cn)，這些$(aura-zh-cn)是從周圍的終界空氣中收集而來的。"
+        },
+        {
+            "type": "text",
+            "text": "透過$(item)終界高花收割機$()，這些能量能被提取出來。首先，在離收割機最遠兩格處種植一株$(thing)歌萊花$()。一旦花長得夠高，給$(item)終界高花收割機$()通入$(thing)紅石訊號$()會使其開始收割整顆植物，並在這個過程中散佈$(aura-zh-cn)。$(br)收割前植物長得越高越廣，收割時產生的$(aura-zh-cn)越多。"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:chorus_generator",
+            "text": "製作$(item)終界高花收割機$()"
+        }
+    ]
+}

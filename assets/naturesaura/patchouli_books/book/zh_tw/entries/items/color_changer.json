@@ -1,0 +1,21 @@
+{
+    "name": "無限色彩之桶",
+    "icon": "naturesaura:color_changer",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "運用$(thing)顏色$()使建築變得好看是一項在建造者間公認的技術。然而，有時找到一個人需要的所有顏色會很困難。$(item)無限色彩之桶$()，雖然僅使用了世界的三種主要色調，但能在接觸時複製任何顏色，並將其轉移到任何可染色方塊上。"
+        },
+        {
+            "type": "text",
+            "text": "要使用這個桶裝一種顏色，只需潛行與任何可染色方塊互動。然後用裝好顏色的桶與其他可染色方塊互動，就能將顏色轉移到它們之上。$(br)潛行與物品本身互動會使其切換為$(thing)填充模式$()，這意味著，在對方塊染色時，所有周圍有相同顏色的方塊都會被染色。$(br)當然，這些功能都需要消耗一些$(thing)靈氣$()，需要通過物品欄內的$(l:items/aura_cache)靈氣快取$()提供。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)無限色彩之桶$()",
+            "recipe": "naturesaura:color_changer"
+        }
+    ]
+}

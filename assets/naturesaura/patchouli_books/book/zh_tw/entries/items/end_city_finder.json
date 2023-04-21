@@ -1,0 +1,17 @@
+{
+    "name": "界伏之眼",
+    "icon": "naturesaura:end_city_finder",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:aura_bottle_end",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在意識到$(item)終界之眼$()和$(l:items/fortress_finder)烈焰之眼$()的能力後，魔法植物學家可以建構第三種這類尋找結構的眼，完成維度探索的序列。$(item)界伏之眼$()和它的主世界和地獄對應物類似，在被拋出時能定位最近的$(thing)終界城$()。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)界伏之眼$()",
+            "recipe": "naturesaura:end_city_finder"
+        }
+    ]
+}

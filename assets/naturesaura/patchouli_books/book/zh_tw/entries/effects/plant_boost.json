@@ -1,0 +1,21 @@
+{
+    "name": "植物增生",
+    "icon": "minecraft:wheat_seeds",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "當某區域內的$(aura-zh-cn)水平高到變得不穩定，$(aura-zh-cn)就會開始轉移到附近的草木中，特別是$(item)小麥$()、$(item)馬鈴薯$()之類的植物。這會使得它們獲得$(thing)快速生長$()的效果，同時，作為結果，會略微減少周圍的$(aura-zh-cn)。"
+        },
+        {
+            "type": "text",
+            "text": "這樣的效果將在靈氣充滿$(l:items/eye)環境之眼$()量表四分之三及以上的時候變得明顯。$(br)就目前所知，這個效果只會在$(thing)主世界$()中發生。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:plant_powder",
+            "text": "可以使用$(l:effects/effect_powder)穩生之粉$()來抑制效果。"
+        }
+    ]
+}

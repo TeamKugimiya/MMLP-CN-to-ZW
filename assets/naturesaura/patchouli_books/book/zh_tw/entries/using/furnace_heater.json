@@ -1,0 +1,17 @@
+{
+    "name": "外置燃火器",
+    "icon": "naturesaura:furnace_heater",
+    "category": "naturesaura:using",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "在某個時候，你意識到$(item)熔爐$()工作得太慢，太消耗資源，遠算不上高效。$(br)$(item)外置燃火器$()能從任何一面加速一個$(item)熔爐$()，還會提供足以熔煉任何材料的熱量。注意，這個過程對$(aura-zh-cn)的消耗可能會使自然靈氣濃度降低到負值，從而引發$(l:intro/aura)工作回報遞減$()。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "text": "使用$(l:practices/tree_ritual)森林儀式$()製作$(item)外置燃火器$()",
+            "recipe": "naturesaura:furnace_heater"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "靈氣快取",
+    "icon": "naturesaura:aura_cache",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "在附近有一個能儲存$(aura-zh-cn)的$(l:collecting/altar)自然祭壇$()固然很好，但如果能帶著$(aura-zh-cn)到處跑就更方便了。這種情況下，$(item)靈氣快取$()會顯得十分有用：它能在內部儲存大量的$(aura-zh-cn)，以供人們隨時隨地使用。$(br)要填充$(item)靈氣快取$()，只需要將其放在$(item)自然祭壇$()上並等待$(aura-zh-cn)被吸入其中。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)靈氣快取$()",
+            "recipe": "naturesaura:aura_cache"
+        }
+    ]
+}

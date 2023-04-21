@@ -1,0 +1,21 @@
+{
+    "name": "繁殖行為增加",
+    "icon": "minecraft:egg",
+    "category": "naturesaura:effects",
+    "advancement": "naturesaura:positive_imbalance",
+    "pages": [
+        {
+            "type": "text",
+            "text": "當一個區域中的$(aura-zh-cn)超過了$(l:items/eye)環境之眼$()顯示範圍的三分之二，而且附近有一些$(l:effects/effect_powder)繁殖之粉$()的時候，周圍的$(item)動物$()就會受到影響：牛、羊、豬等動物會在無外部激勵的情況下時不時地進行$(thing)交配$()，在這過程中還會消耗一些靈氣，就像是靈氣的力量使它們墜入愛河。"
+        },
+        {
+            "type": "text",
+            "text": "另外，掉落在附近地上的$(item)雞蛋$()也會無需擲出地自動$(thing)孵化$()成小雞。$(p)注意，一旦區域內的動物足夠多，上述兩個效果都將停止發生，以防止數量過多。"
+        },
+        {
+            "type": "naturesaura:tree_ritual",
+            "recipe": "naturesaura:animal_powder",
+            "text": "製作$(l:effects/effect_powder)繁殖之粉$()。"
+        }
+    ]
+}

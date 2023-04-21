@@ -1,0 +1,6 @@
+{
+    "name": "自然實踐",
+    "description": "和$(aura-zh-cn)相關，但對其收集和儲存並非必要的其他自然實踐，從長期來看可能會帶來好處。這個章節提供了存在何種實踐，以及如何進行這些實踐的資訊。",
+    "icon": "naturesaura:textures/gui/patchouli/categories/practices.png",
+    "sortnum": 5
+}

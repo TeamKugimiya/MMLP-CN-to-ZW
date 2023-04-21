@@ -1,0 +1,17 @@
+{
+    "name": "靈氣秘寶",
+    "icon": "naturesaura:aura_trove",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:sky_ingot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "一旦$(aura-zh-cn)的需求量對於$(l:items/aura_cache)靈氣快取$()來說太多，使得使用時不得不過於頻繁地重複填充快取，人們就可以借助$(item)靈氣秘寶$()——一種有三倍容量的升級版$(item)靈氣快取$()——的幫助。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)靈氣秘寶$()",
+            "recipe": "naturesaura:aura_trove"
+        }
+    ]
+}

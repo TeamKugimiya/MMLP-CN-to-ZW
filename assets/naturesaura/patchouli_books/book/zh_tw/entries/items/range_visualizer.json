@@ -1,0 +1,17 @@
+{
+    "name": "奧秘放大鏡",
+    "icon": "naturesaura:range_visualizer",
+    "category": "naturesaura:items",
+    "advancement": "naturesaura:infused_materials",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)奧秘放大鏡$()對於任何與機器工作的魔法植物學家來說都是一個簡潔靈巧（$(t:是 vazkii 的一個模組)neat$()）的設備。將其裝備在任一隻手，並與相容的設備進行互動，設備的$(thing)工作範圍$()就會顯示出來，允許使用設備建造的任何結構可以被輕鬆而精確地檢查。再互動一次可以使設備停止顯示它的工作範圍。"
+        },
+        {
+            "type": "crafting",
+            "text": "製作$(item)奧秘放大鏡$()",
+            "recipe": "naturesaura:range_visualizer"
+        }
+    ]
+}
