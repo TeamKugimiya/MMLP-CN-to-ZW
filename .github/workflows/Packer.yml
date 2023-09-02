@@ -6,21 +6,16 @@ on:
     branches:
       - main
     paths:
-      - assets/**
-      - pack.mcmeta
-      - pack.png
+      - MultiVersions/**
 
 permissions:
   contents: write
 
 jobs:
   Simple-Packer:
-    name: 簡易資源包發布
-    uses: TeamKugimiya/reusable-workflows/.github/workflows/Simple-ResourcePacker.yml@main
+    name: 簡易多版本發布
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/Simple-MultiVersionPacker.yml@main
     with:
       resourcepack_file_name: "MMLP-CN-to-ZW"
-      release_title_name: "簡轉繁資源包"
-      force_include_files: |
-        LICENSE
-      git_version_replacer: true
+      release_title_name: "簡轉繁多版本"
       generate_time_replacer: true
