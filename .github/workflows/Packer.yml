@@ -1,4 +1,4 @@
-name: 自動發布資源包更新
+name: 自動發布多版本更新
 
 on:
   workflow_dispatch: {}
