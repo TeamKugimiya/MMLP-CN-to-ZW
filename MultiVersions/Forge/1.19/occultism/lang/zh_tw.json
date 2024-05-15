@@ -417,7 +417,7 @@
   "book.occultism.dictionary_of_spirits.getting_started.summoning_rituals.name": "召喚儀式",
   "book.occultism.dictionary_of_spirits.getting_started.theurgy_divination_rod.description": "尋找其它的礦物和資源",
   "book.occultism.dictionary_of_spirits.getting_started.theurgy_divination_rod.intro.text": "[](item://occultism:divination_rod)確實是個尋找[#](ad03fc)異界材料[#]()的好工具，但是如果也有辦法找到*所有其它*礦物和資源就更好了。\n\\\n\\\n隆重介紹，神術探測杖。\n",
-  "book.occultism.dictionary_of_spirits.getting_started.theurgy_divination_rod.more_info.text": "若想詳細了解神術中的探測杖，請查閱神術的指南書* \"神言秘術\" *。\n[這個條目](entry://theurgy:the_hermetica/getting_started/about_divination_rods)中包含有關神術探測杖的更多資訊。\n",
+  "book.occultism.dictionary_of_spirits.getting_started.theurgy_divination_rod.more_info.text": "若想詳細了解神術中的探測杖，請查閱神術的指南書* \"神言秘術\" *。\n[這個條目](entry://theurgy:the_hermetica/getting_started/divination_rod)中包含有關神術探測杖的更多資訊。\n",
   "book.occultism.dictionary_of_spirits.getting_started.theurgy_divination_rod.more_info.title": "更多資訊",
   "book.occultism.dictionary_of_spirits.getting_started.theurgy_divination_rod.name": "更多探測杖",
   "book.occultism.dictionary_of_spirits.getting_started.third_eye.about.text": "看到超越物理世界的存在，這種能力被稱為[#](ad03fc)第三隻眼[#]()。\n人類並沒有[#](ad03fc)看穿帷幕[#]()的能力，不過，在某些物質和裝置的幫助下，知識淵博的魔法師可以繞過這個限制。\n",
