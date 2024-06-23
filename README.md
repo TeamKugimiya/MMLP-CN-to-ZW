@@ -37,6 +37,7 @@
 * [RF 工具｜能量 RFTools Power][rftoolspower]
 * [RF 工具｜儲存 RFTools Storage][rftoolsstorage]
 * [RF 工具｜實用設備 RFTools Utility][rftoolsutility]
+* [寂靜裝備 Silent Gear][silentgear]
 
 ## **銘謝**
 
@@ -79,5 +80,6 @@
 [rftoolspower]: https://www.curseforge.com/minecraft/mc-mods/rftools-power
 [rftoolsstorage]: https://www.curseforge.com/minecraft/mc-mods/rftools-storage
 [rftoolsutility]: https://www.curseforge.com/minecraft/mc-mods/rftools-utility
+[silentgear]: https://www.curseforge.com/minecraft/mc-mods/silent-gear
 [license]: LICENSE
 [正體中文]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW
