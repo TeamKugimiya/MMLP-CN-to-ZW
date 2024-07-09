@@ -1,0 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    歡迎來到淵海陷窟……
+
+    • {綜合介紹|abyssal_chasm/general.json}
+    • {自然資源|abyssal_chasm/resources.json}
+    • 棲息物種
+        • {燈籠魚|abyssal_chasm/lanternfish.json}
+        • {海豬|abyssal_chasm/sea_pig.json}
+        • {碎船獸|abyssal_chasm/hullbreaker.json}
+        • {浮蠶|abyssal_chasm/gossamer_worm.json}
+        • {三腳魚|abyssal_chasm/tripodfish.json}
+        • {深潛者|abyssal_chasm/deep_one.json}
+        • {深潛者騎士|abyssal_chasm/deep_one_knight.json}
+        • {深潛者法師|abyssal_chasm/deep_one_mage.json}
+        • {水雷守衛者|abyssal_chasm/mine_guardian.json}
+    • {實用物品|abyssal_chasm/utilities.json}

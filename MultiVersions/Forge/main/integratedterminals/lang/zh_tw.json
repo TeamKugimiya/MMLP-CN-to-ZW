@@ -161,7 +161,7 @@
     "info_book.integratedterminals.storage_terminal.usage.text4": "選擇儲存網路原料後，你可以透過右鍵點擊少量移動，點擊左鍵以選擇全部，以及點擊中鍵以選擇一半。",
     "info_book.integratedterminals.storage_terminal.usage.text5": "透過左側的按鈕，你可以切換不同的排序選項，如按名稱和數量排序。",
     "info_book.integratedterminals.storage_terminal.usage.text6": "使用搜尋框，你可以按名稱過濾顯示的原料。透過進一步定義由空格分隔的參數，可以進行更深層次的搜尋。&o或&r謂詞可以用'|'定義。",
-    "info_book.integratedterminals.storage_terminal.usage.text7": "可使用不同的前綴來定義你的搜尋目標。預設一下，你將按原料名稱搜尋。透過新增&o'@'&r前綴，你可以按模組搜尋。新增&o'#'&r前綴，可以透過物品描述搜尋。最後，&o'$'&r可以搜尋物品標籤。例如，搜尋&o'$plank @minecraft'&r將會顯示所有由Minecraft新增的木板。",
+    "info_book.integratedterminals.storage_terminal.usage.text7": "可使用不同的前綴來定義你的搜尋目標。預設一下，你將按原料名稱搜尋。透過新增&o'@'&r前綴，你可以按模組搜尋。新增&o'#'&r前綴，可以透過物品描述搜尋。最後，&o'$'&r可以搜尋物品標籤。例如，搜尋&o'$plank @minecraft'&r將會顯示所有由Minecraft新增的木材。",
     "info_book.integratedterminals.storage_terminal.usage.text8": "當物品儲存網路可用時，你還會獲得一個額外的合成標籤頁。它與物品標籤頁類似，但帶有集成的合成網格。它幾個有用的集成功能，如將網格內的物品清除到你的物品欄或網路中、均分網格，以及設置合成後網格是否自動重新填充。",
     "info_book.integratedterminals.storage_terminal.usage.text9": "By default, the terminal will take up as much space as possible. Using the &lGrid Size&r button, it is possible to change this to only scale in height, width, or use a fixed number of rows and columns (small, medium, or large). If you want to display even more slots, try tweaking your &lGUI Scale&r from the Minecraft options. The behaviour of the different grid sizes can be configured using your client-side config file.",
 	"info_book.integratedterminals.storage_terminal.usage.text10": "所有終端設置（按鈕、搜尋框、標籤頁……）會為每個玩家和每個終端保留。你可以按終端介面右下角的鐵砧按鈕，以調整新放置終端所載入的設置。",
@@ -199,6 +199,6 @@
     
 	"info_book.integratedterminals.tutorials.storage_terminal_filtering": "儲存終端過濾",
     "info_book.integratedterminals.tutorials.storage_terminal_filtering.text1": "&l儲存終端&r的許多有用特性之一是它能夠透過原料進行&o過濾&r。在本教學中，我們將探索兩種不同的過濾方法：基於文本的過濾和基於變數的過濾（只有第二種方法會使你獲得成就）。本教學將使用由聯合管道中的物品接口提供的基於物品的儲存。",
-    "info_book.integratedterminals.tutorials.storage_terminal_filtering.text2": "本教學的第一部分，我們將透過在搜尋框中輸入特定的字串進行過濾。別忘了你可以使用快捷鍵以更快的選擇搜尋框。並且如果你安裝了JEI，你可以用JEI的搜尋框同步其內容。預設你將按原料名稱搜尋。新增&o'#'&r前綴，可以透過物品描述搜尋。最後，&o'$'&r可以搜尋物品標籤。在搜尋框輸入&o'$plank @minecraft'&r來顯示所有Minecraft新增的木板以完成教學的第一部分。",
+    "info_book.integratedterminals.tutorials.storage_terminal_filtering.text2": "本教學的第一部分，我們將透過在搜尋框中輸入特定的字串進行過濾。別忘了你可以使用快捷鍵以更快的選擇搜尋框。並且如果你安裝了JEI，你可以用JEI的搜尋框同步其內容。預設你將按原料名稱搜尋。新增&o'#'&r前綴，可以透過物品描述搜尋。最後，&o'$'&r可以搜尋物品標籤。在搜尋框輸入&o'$plank @minecraft'&r來顯示所有Minecraft新增的木材以完成教學的第一部分。",
     "info_book.integratedterminals.tutorials.storage_terminal_filtering.text3": "本教學的第二部分，我們將透過使用&l儲存終端&r介面中右下角的&l變數卡&r欄位進行基於變數的過濾。你可以插入&l變數卡&r，其中包含了在&l整合力學邏輯編程器&r中設置的某個&l謂詞&r，該&l謂詞&r將原料類型作為輸入，並將&9布爾型&0作為輸出，用於指示是否顯示給定的原料。本教學中，讓我們嘗試過濾所有&o可附魔&物品。為此，打開&l邏輯編程器&r，選擇&l謂詞&r類型，搜尋&o“Enchantable”&R謂詞，並將其寫入&l變數卡&R中。在這之後，在選中物品標籤頁時，將你的&l變數卡&r插入&l儲存終端&r中的其中一個&l變數卡&r欄位。"
 }
