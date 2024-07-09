@@ -11,6 +11,7 @@
 目前臨時轉換而來的模組：<br>
 
 * [高級外設 Advanced Peripherals][advancedperipherals]
+* [Alex 的洞穴 Alex's Caves][alexscaves]
 * [新生魔藝 Ars Nouveau][ars_nouveau]
 * [木工方塊 BlockCarpentry][blockcarpentry]
 * [蔚藍天空 Blue Skies][blueskies]
@@ -54,6 +55,7 @@
 [cfpa]: https://github.com/CFPAOrg
 [mmlp]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package
 [advancedperipherals]: https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
+[alexscaves]: https://www.curseforge.com/minecraft/mc-mods/alexs-caves
 [ars_nouveau]: https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
 [blockcarpentry]: https://www.curseforge.com/minecraft/mc-mods/blockcarpentry
 [blueskies]: https://www.curseforge.com/minecraft/mc-mods/blue-skies
