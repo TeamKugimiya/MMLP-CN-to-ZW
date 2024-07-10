@@ -12,6 +12,7 @@
 
 * [高級外設 Advanced Peripherals][advancedperipherals]
 * [Alex 的洞穴 Alex's Caves][alexscaves]
+* [Alex 的生物 Alex's Mobs][alexsmobs]
 * [新生魔藝 Ars Nouveau][ars_nouveau]
 * [木工方塊 BlockCarpentry][blockcarpentry]
 * [蔚藍天空 Blue Skies][blueskies]
@@ -32,6 +33,7 @@
 * [自然靈氣 Nature's Aura][naturesaura]
 * [神祕學 Occultism][occultism]
 * [氣動工藝：再加壓 PneumaticCraft: Repressurized][pneumaticcraft]
+* [老鼠 Rats][rats]
 * [RF 工具｜核心 RFTools Base][rftoolsbase]
 * [RF 工具｜建築機 RFTools Builder][rftoolsbuilder]
 * [RF 工具｜控制 RFTools Control][rftoolscontrol]
@@ -56,6 +58,7 @@
 [mmlp]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package
 [advancedperipherals]: https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
 [alexscaves]: https://www.curseforge.com/minecraft/mc-mods/alexs-caves
+[alexsmobs]: https://www.curseforge.com/minecraft/mc-mods/alexs-mobs
 [ars_nouveau]: https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
 [blockcarpentry]: https://www.curseforge.com/minecraft/mc-mods/blockcarpentry
 [blueskies]: https://www.curseforge.com/minecraft/mc-mods/blue-skies
@@ -76,6 +79,7 @@
 [naturesaura]: https://www.curseforge.com/minecraft/mc-mods/natures-aura
 [occultism]: https://www.curseforge.com/minecraft/mc-mods/occultism
 [pneumaticcraft]: https://www.curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized
+[rats]: https://www.curseforge.com/minecraft/mc-mods/rats
 [rftoolsbase]: https://www.curseforge.com/minecraft/mc-mods/rftools-base
 [rftoolsbuilder]: https://www.curseforge.com/minecraft/mc-mods/rftools-builder
 [rftoolscontrol]: https://www.curseforge.com/minecraft/mc-mods/rftools-control
