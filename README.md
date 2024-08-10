@@ -17,6 +17,8 @@
 * [木工方塊 BlockCarpentry][blockcarpentry]
 * [蔚藍天空 Blue Skies][blueskies]
 * [植物魔法 Botania][botania]
+* [你將去的生態域 Oh The Biomes You'll Go][byg]
+* [Chipped][chipped]
 * [雕刻工藝 Chisels & Bits - For Forge][chiselsandbits]
 * [電腦 CC: Tweaked][computercraft]
 * [動力機械：裝飾 Create Deco][createdeco]
@@ -28,6 +30,7 @@
 * [整合力學 Integrated Dynamics][integrateddynamics]
 * [整合終端 Integrated Terminals][integratedterminals]
 * [整合管道 Integrated Tunnels][integratedtunnels]
+* [巧工魔藝 Mana and Artifice][mna]
 * [神秘農業擴展 Mystical Agradditions][mysticalagradditions]
 * [神秘農業 Mystical Agriculture][mysticalagriculture]
 * [自然靈氣 Nature's Aura][naturesaura]
@@ -63,6 +66,8 @@
 [blockcarpentry]: https://www.curseforge.com/minecraft/mc-mods/blockcarpentry
 [blueskies]: https://www.curseforge.com/minecraft/mc-mods/blue-skies
 [botania]: https://www.curseforge.com/minecraft/mc-mods/botania
+[byg]: https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-youll-go
+[chipped]: https://www.curseforge.com/minecraft/mc-mods/chipped
 [chiselsandbits]: https://www.curseforge.com/minecraft/mc-mods/chisels-bits
 [computercraft]: https://www.curseforge.com/minecraft/mc-mods/cc-tweaked
 [createdeco]: https://www.curseforge.com/minecraft/mc-mods/create-deco
@@ -74,6 +79,7 @@
 [integrateddynamics]: https://www.curseforge.com/minecraft/mc-mods/integrated-dynamics
 [integratedterminals]: https://www.curseforge.com/minecraft/mc-mods/integrated-terminals
 [integratedtunnels]: https://www.curseforge.com/minecraft/mc-mods/integrated-tunnels
+[mna]: https://www.curseforge.com/minecraft/mc-mods/mana-and-artifice
 [mysticalagradditions]: https://www.curseforge.com/minecraft/mc-mods/mystical-agradditions
 [mysticalagriculture]: https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture
 [naturesaura]: https://www.curseforge.com/minecraft/mc-mods/natures-aura
