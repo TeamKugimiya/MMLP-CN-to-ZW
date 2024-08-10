@@ -614,8 +614,8 @@
     "aspect.integrateddynamics.read.integer.block.posz.info": "目標的 Z 坐標",
     "aspect.integrateddynamics.read.nbt.block.tile": "方塊實體 NBT 標籤",
     "aspect.integrateddynamics.read.nbt.block.tile.info": "目標方塊實體的 NBT 標籤",
-    "aspect.integrateddynamics.read.string.block.biome": "生物群系",
-    "aspect.integrateddynamics.read.string.block.biome.info": "目標方塊所在的生物群系名稱",
+    "aspect.integrateddynamics.read.string.block.biome": "生態域",
+    "aspect.integrateddynamics.read.string.block.biome.info": "目標方塊所在的生態域名稱",
     "aspect.integrateddynamics.read.integer.block.light": "亮度等級",
     "aspect.integrateddynamics.read.integer.block.light.info": "目前亮度等級",
 	
@@ -1612,7 +1612,7 @@
     "info_book.integrateddynamics.manual.prerequisites.menril_trees.text1": "在探索世界的過程中，你偶爾會遇到一些高大的藍色樹木。這些樹叫做&l門瑞歐樹&r,它們有一些非常有趣的屬性。其一，它們的葉子會發光，這是由於漿果中含有的螢光物質導致的。它也非常的好吃！其二，色質較為特別的門瑞歐原木包含大量的樹脂，可用於製作這個模組中的大部分內容。",
 
     "info_book.integrateddynamics.manual.prerequisites.meneglin_biome": "門勒格林",
-    "info_book.integrateddynamics.manual.prerequisites.meneglin_biome.text1": "可能有些時候&l門瑞歐樹&r很難找到。但幸運的是，本模組為此增加了一個生物群系：&l門勒格林&r。它是門瑞歐樹茁壯生長的群系。大量的門瑞歐樹使得該群系看起來很藍，這是因為樹木中的&l門瑞歐樹脂&r被釋放到了環境中。",
+    "info_book.integrateddynamics.manual.prerequisites.meneglin_biome.text1": "可能有些時候&l門瑞歐樹&r很難找到。但幸運的是，本模組為此增加了一個生態域：&l門勒格林&r。它是門瑞歐樹茁壯生長的群系。大量的門瑞歐樹使得該群系看起來很藍，這是因為樹木中的&l門瑞歐樹脂&r被釋放到了環境中。",
 
     "info_book.integrateddynamics.manual.prerequisites.squeezer": "擠壓機",
     "info_book.integrateddynamics.manual.prerequisites.squeezer.text1": "&l擠壓機&r是一個早期的遊戲機器，可以讓你跳躍在方塊和物品上，以打破或擠壓它們。 不僅玩家，任何一種實體都可以跳躍或落在它上面進行擠壓過程。 所得項目將存入任何相鄰的容器或實地。 產生的液體將保留在機器中，並且當存在目標流體儲罐時將流入兩側之一。 該機器的壓板可以啟用紅石脈衝來重設它。 最數據得注意的是，這台機器可以用來擠出樹脂，並將它們從&l門瑞歐原木&r”中擠出。",

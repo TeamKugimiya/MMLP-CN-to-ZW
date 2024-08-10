@@ -1878,7 +1878,7 @@
     "pneumaticcraft.patchouli.processor.pressureChamber.desc": "在$(item)壓力室/$中提供至少$(thing)%sbar/$的壓力。",
     "pneumaticcraft.patchouli.processor.assembly.desc": "生產$(item)%1$s/$需要安裝有$(item)%2$s/$的$(l:manufacturing/assembly_system)裝配台/$。",
     "pneumaticcraft.patchouli.processor.thermoPlant.desc": "在$(item)熱氣動加工機/$中提供至少$(thing)%sbar/$的壓力與$(thing)%s/$的溫度。",
-    "pneumaticcraft.playerFilter.biomes": "生物群系類型：",
+    "pneumaticcraft.playerFilter.biomes": "生態域類型：",
     "pneumaticcraft.playerFilter.blacklist": "如下情況不可用：",
     "pneumaticcraft.playerFilter.dimensions": "維度：",
     "pneumaticcraft.playerFilter.gamestages": "遊戲階段：",
