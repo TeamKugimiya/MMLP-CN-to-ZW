@@ -31,7 +31,6 @@
 * [整合終端 Integrated Terminals][integratedterminals]
 * [整合管道 Integrated Tunnels][integratedtunnels]
 * [巧工魔藝 Mana and Artifice][mna]
-* [神秘農業擴展 Mystical Agradditions][mysticalagradditions]
 * [神秘農業 Mystical Agriculture][mysticalagriculture]
 * [自然靈氣 Nature's Aura][naturesaura]
 * [神祕學 Occultism][occultism]
@@ -80,7 +79,6 @@
 [integratedterminals]: https://www.curseforge.com/minecraft/mc-mods/integrated-terminals
 [integratedtunnels]: https://www.curseforge.com/minecraft/mc-mods/integrated-tunnels
 [mna]: https://www.curseforge.com/minecraft/mc-mods/mana-and-artifice
-[mysticalagradditions]: https://www.curseforge.com/minecraft/mc-mods/mystical-agradditions
 [mysticalagriculture]: https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture
 [naturesaura]: https://www.curseforge.com/minecraft/mc-mods/natures-aura
 [occultism]: https://www.curseforge.com/minecraft/mc-mods/occultism
