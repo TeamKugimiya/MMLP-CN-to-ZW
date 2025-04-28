@@ -7,20 +7,21 @@
 
 
 
-    這些洞穴生態域不僅能為
+    這些洞穴生物群系不僅能為
 冒險者們帶來一場新奇的冒險，
 還能夠提供一些強大的物品。
 
 
 
-    在這些生態域中，已知存在
-的共有5種，它們分別是：
+    在這些生物群系中，已知存在
+的共有6種，它們分別是：
 
     • {磁場洞穴|magnetic_caves/chapter.json}
     • {原始洞穴|primordial_caves/chapter.json}
     • {毒化洞穴|toxic_caves/chapter.json}
     • {淵海陷窟|abyssal_chasm/chapter.json}
     • {異寂空谷|forlorn_hollows/chapter.json}
+    • {糖果洞穴|candy_cavity/chapter.json}
 
     想要探尋這些洞穴的秘密，你
 就得先找到一座§l地下小屋§r……
@@ -111,7 +112,7 @@
 
 
     洞穴地圖可以指引最近的一
-處由手稿標註的洞穴生態域。
+處由手稿標註的洞穴生物群系。
 而在製作洞穴手稿時付出的努力
 也讓這個地圖蘊含了不可思議的
 範圍與響應能力。

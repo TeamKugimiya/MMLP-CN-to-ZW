@@ -18,10 +18,10 @@
     • {綜合介紹|primordial_caves/general.json}
     • {自然資源|primordial_caves/resources.json}
     • 棲息物種
-        • {地底翼龍|primordial_caves/subterranodon.json}
+        • {地底翼手龍|primordial_caves/subterranodon.json}
         • {闊鼻迅猛龍|primordial_caves/vallumraptor.json}
-        • {洞穴角龍|primordial_caves/grottoceratops.json}
-        • {三葉蝦|primordial_caves/trilocaris.json}
+        • {洞穴三角龍|primordial_caves/grottoceratops.json}
+        • {奇蝦|primordial_caves/trilocaris.json}
         • {撼地龍|primordial_caves/tremorsaurus.json}
         • {遺蹟恐手龍|primordial_caves/relicheirus.json}
         • {暝煌龍|primordial_caves/luxtructosaurus.json}
