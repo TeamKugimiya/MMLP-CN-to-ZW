@@ -11,8 +11,10 @@
 目前臨時轉換而來的模組：<br>
 
 * [高級外設 Advanced Peripherals][advancedperipherals]
-* [Alex 的洞穴 Alex's Caves][alexscaves]
 * [Alex 的生物 Alex's Mobs][alexsmobs]
+* [Ars Additions][ars_additions]
+* [元素魔藝 Ars Elemental][ars_elemental]
+* [Ars Hex Unity][ars_hex]
 * [新生魔藝 Ars Nouveau][ars_nouveau]
 * [木工方塊 BlockCarpentry][blockcarpentry]
 * [蔚藍天空 Blue Skies][blueskies]
@@ -26,10 +28,13 @@
 * [幻象 Ensorcellation][ensorcellation]
 * [禁忌與奧秘 Forbidden and Arcanus][forbidden_arcanus]
 * [鑲框方塊 FramedBlocks][framedblocks]
+* [Gaze][gaze]
 * [整合合成 Integrated Crafting][integratedcrafting]
 * [整合力學 Integrated Dynamics][integrateddynamics]
 * [整合終端 Integrated Terminals][integratedterminals]
 * [整合管道 Integrated Tunnels][integratedtunnels]
+* [艾倫的法術與魔法書 Iron's Spells 'n Spellbooks][irons_spellbooks]
+* [靈災 Malum][malum]
 * [巧工魔藝 Mana and Artifice][mna]
 * [神秘農業 Mystical Agriculture][mysticalagriculture]
 * [自然靈氣 Nature's Aura][naturesaura]
@@ -43,6 +48,8 @@
 * [RF 工具｜儲存 RFTools Storage][rftoolsstorage]
 * [RF 工具｜實用設備 RFTools Utility][rftoolsutility]
 * [寂靜裝備 Silent Gear][silentgear]
+* [簡易刀劍 Simply Swords][simplyswords]
+* [星寶石獸狂熱 StarbuncleMania][starbunclemania]
 
 ## **銘謝**
 
@@ -59,9 +66,11 @@
 [cfpa]: https://github.com/CFPAOrg
 [mmlp]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package
 [advancedperipherals]: https://www.curseforge.com/minecraft/mc-mods/advanced-peripherals
-[alexscaves]: https://www.curseforge.com/minecraft/mc-mods/alexs-caves
 [alexsmobs]: https://www.curseforge.com/minecraft/mc-mods/alexs-mobs
-[ars_nouveau]: https://www.curseforge.com/minecraft/mc-mods/ars-nouveau
+[ars_additions]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/4536
+[ars_elemental]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/5558
+[ars_hex]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/5587
+[ars_nouveau]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/5558
 [blockcarpentry]: https://www.curseforge.com/minecraft/mc-mods/blockcarpentry
 [blueskies]: https://www.curseforge.com/minecraft/mc-mods/blue-skies
 [botania]: https://www.curseforge.com/minecraft/mc-mods/botania
@@ -74,10 +83,13 @@
 [ensorcellation]: https://www.curseforge.com/minecraft/mc-mods/ensorcellation
 [forbidden_arcanus]: https://www.curseforge.com/minecraft/mc-mods/forbidden-arcanus
 [framedblocks]: https://www.curseforge.com/minecraft/mc-mods/framedblocks
+[gaze]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/5256
 [integratedcrafting]: https://www.curseforge.com/minecraft/mc-mods/integrated-crafting
 [integrateddynamics]: https://www.curseforge.com/minecraft/mc-mods/integrated-dynamics
 [integratedterminals]: https://www.curseforge.com/minecraft/mc-mods/integrated-terminals
 [integratedtunnels]: https://www.curseforge.com/minecraft/mc-mods/integrated-tunnels
+[irons_spellbooks]: https://github.com/iron431/irons-spells-n-spellbooks/pull/985
+[malum]: https://github.com/SammySemicolon/Malum-Mod/pull/353
 [mna]: https://www.curseforge.com/minecraft/mc-mods/mana-and-artifice
 [mysticalagriculture]: https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture
 [naturesaura]: https://www.curseforge.com/minecraft/mc-mods/natures-aura
@@ -91,5 +103,7 @@
 [rftoolsstorage]: https://www.curseforge.com/minecraft/mc-mods/rftools-storage
 [rftoolsutility]: https://www.curseforge.com/minecraft/mc-mods/rftools-utility
 [silentgear]: https://www.curseforge.com/minecraft/mc-mods/silent-gear
+[simplyswords]: https://github.com/Sweenus/SimplySwords/pull/196
+[starbunclemania]: https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/5650
 [license]: LICENSE
 [正體中文]: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh_TW
