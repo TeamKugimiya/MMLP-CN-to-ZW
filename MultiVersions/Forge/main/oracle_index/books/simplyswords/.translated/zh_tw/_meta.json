@@ -1,0 +1,12 @@
+{
+  "main.mdx": "簡介",
+  "friendly-fire.mdx": "友軍傷害",
+  "weapon-types": "武器類型",
+  "runic-powers": "符文之力",
+  "nether-powers": "獄靈之力",
+  "gem-socketing": "寶石鑲嵌",
+  "unique-weapons": {
+    "name": "獨特武器",
+    "icon": null
+  }
+}
