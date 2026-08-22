@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "occultism",
+  "display_name": {
+    "en": "Occultism"
+  },
+  "external": true,
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "361026"
+  },
+  "license": {
+    "spdx": "CC-BY-NC-SA-4.0",
+    "notice": "© CFPA 組織",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "contents": {
+    "tiers": {
+      "1.19": {
+        "versions": [
+          "<=1.19"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      },
+      "1.20": {
+        "versions": [
+          "@latest",
+          ">=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "mod_versions": {
+      "1.19": "occultism-1.19.2-1.90.0.jar",
+      "1.20": "occultism-1.20.1-1.158.0.jar"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "groups": {
+    "1.18": {
+      "pack_format": 8,
+      "publish": {
+        "game_versions": [
+          ">=1.18 <1.19"
+        ]
+      }
+    },
+    "1.19": {
+      "pack_format": 9,
+      "publish": {
+        "game_versions": [
+          ">=1.19 <1.20"
+        ]
+      }
+    },
+    "1.20": {
+      "pack_format": 15,
+      "publish": {
+        "game_versions": [
+          ">=1.20 <1.21"
+        ]
+      }
+    },
+    "1.21": {
+      "pack_format": 34,
+      "min_format": 34,
+      "max_format": 75,
+      "publish": {
+        "game_versions": [
+          ">=1.21 <1.22"
+        ]
+      }
+    },
+    "26.1": {
+      "pack_format": 84.0,
+      "min_format": 84.0,
+      "max_format": 84.0,
+      "publish": {
+        "game_versions": [
+          ">=26.1 <26.2"
+        ]
+      }
+    },
+    "26.2": {
+      "pack_format": 88.0,
+      "min_format": 88.0,
+      "max_format": 88.0,
+      "publish": {
+        "game_versions": [
+          ">=26.2"
+        ]
+      }
+    }
+  },
+  "content_template": {
+    "content_id_prefix": "MMLP-",
+    "external": true,
+    "license": {
+      "spdx": "CC-BY-NC-SA-4.0",
+      "notice": "© CFPA 組織",
+      "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  }
+}
