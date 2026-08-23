@@ -1,10 +1,10 @@
 {
   "schema_version": "1.2",
   "mod_id": "occultism",
+  "external": true,
   "display_name": {
     "en": "Occultism"
   },
-  "external": true,
   "remote": {
     "primary": "curseforge",
     "curseforge": "361026"
@@ -27,12 +27,21 @@
       },
       "1.20": {
         "versions": [
-          "<=@latest",
-          ">=1.20"
+          "1.20"
         ],
         "source": {
           "game_version": "1.20.1",
           "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "<=@latest",
+          ">1.20"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
         }
       }
     }
@@ -40,7 +49,8 @@
   "status": {
     "mod_versions": {
       "1.19": "occultism-1.19.2-1.90.0.jar",
-      "1.20": "occultism-1.20.1-1.158.0.jar"
+      "1.20": "occultism-1.20.1-1.158.0.jar",
+      "1.21": "occultism-1.21.1-neoforge-1.224.3.jar"
     }
   }
 }

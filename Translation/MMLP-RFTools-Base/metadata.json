@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "rftoolsbase",
+  "external": true,
+  "display_name": {
+    "en": "RFTools Base"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "326041"
+  },
+  "license": {
+    "spdx": "CC-BY-NC-SA-4.0",
+    "notice": "© CFPA 組織",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "mod_versions": {
+      "1.21": "RFToolsBase - 1.21-6.0.11"
+    }
+  }
+}
