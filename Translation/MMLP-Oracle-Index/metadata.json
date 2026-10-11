@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "oracle_index",
+  "external": true,
+  "display_name": {
+    "en": "Oracle Index"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "1206582"
+  },
+  "license": {
+    "spdx": "CC-BY-NC-SA-4.0",
+    "notice": "© CFPA 組織",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          ">1.20",
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "guides": {
+    "1.21": [
+      "books"
+    ]
+  },
+  "status": {
+    "mod_versions": {
+      "1.21": "neoforge 1.4.0"
+    }
+  }
+}
