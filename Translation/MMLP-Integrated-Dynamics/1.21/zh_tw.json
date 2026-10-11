@@ -872,7 +872,6 @@
 	
     "aspect.aspecttypes.integrateddynamics.double.volume": "音量",
     "aspect.aspecttypes.integrateddynamics.double.frequency": "頻率",
-	"aspect.aspecttypes.integrateddynamics.integer.range": "Range",
 	
     "aspect.aspecttypes.integrateddynamics.double.offset_x": "X 軸偏移",
     "aspect.aspecttypes.integrateddynamics.double.offset_y": "Y 軸偏移",
