@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ars_elemental",
+  "external": true,
+  "display_name": {
+    "en": "Ars Elemental"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "561470"
+  },
+  "license": {
+    "spdx": "CC-BY-NC-SA-4.0",
+    "notice": "© CFPA 組織",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "mod_versions": {
+      "1.21": "ars_elemental-1.21.1-0.7.10.4.jar"
+    }
+  }
+}

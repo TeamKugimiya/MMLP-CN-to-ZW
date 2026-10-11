@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "byg",
+  "external": true,
+  "display_name": {
+    "en": "Oh The Biomes You'll Go"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "247560"
+  },
+  "license": {
+    "spdx": "CC-BY-NC-SA-4.0",
+    "notice": "© CFPA 組織",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "contents": {
+    "tiers": {
+      "1.19": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.19.4",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "mod_versions": {
+      "1.19": "Oh_The_Biomes_You'll_Go-forge-1.19.4-4.0.1.3.jar"
+    }
+  }
+}
