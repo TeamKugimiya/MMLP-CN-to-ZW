@@ -27,6 +27,11 @@
       }
     }
   },
+  "guides": {
+    "1.21": [
+      "patchouli_books"
+    ]
+  },
   "status": {
     "mod_versions": {
       "1.21": "\"PneumaticCraft: Repressurized\" 8.2.23 MC-1.21.1"
