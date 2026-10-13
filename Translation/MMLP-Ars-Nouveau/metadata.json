@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "ars_nouveau",
+  "external": true,
+  "display_name": {
+    "en": "Ars Nouveau"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "401955"
+  },
+  "license": {
+    "spdx": "CC-BY-NC-SA-4.0",
+    "notice": "© CFPA 組織",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "contents": {
+    "tiers": {
+      "1.18": {
+        "versions": [
+          "1.18"
+        ],
+        "source": {
+          "game_version": "1.18.2",
+          "loader": "forge"
+        }
+      },
+      "1.20": {
+        "versions": [
+          ">=1.19",
+          "<=1.20"
+        ],
+        "source": {
+          "game_version": "1.20.1",
+          "loader": "forge"
+        }
+      },
+      "1.21": {
+        "versions": [
+          "<=@latest",
+          ">1.20"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "mod_versions": {
+      "1.18": "ars_nouveau-1.18.2-2.9.0.jar",
+      "1.20": "ars_nouveau-1.20.1-4.12.7-all.jar",
+      "1.21": "ars_nouveau-1.21.1-5.13.3"
+    }
+  }
+}

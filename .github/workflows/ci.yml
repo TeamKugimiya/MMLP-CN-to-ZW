@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/ci.yml"
+      - "Translation/**"
+      - "config/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    # 組織共用 workflow 依設計追蹤 v1，隨相容版本取得修正。
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Validate.yml@v1 # zizmor: ignore[unpinned-uses]
+    with:
+      project_path: .
+    secrets:
+      toolkit_token: ${{ secrets.TOOLKIT_TOKEN }}
+
+  publish:
+    needs: validate
+    if: |
+      github.repository == 'TeamKugimiya/MMLP-CN-to-ZW' &&
+      github.ref == 'refs/heads/main' &&
+      github.event_name != 'pull_request'
+    permissions:
+      contents: write
+    # 組織共用 workflow 依設計追蹤 v1，隨相容版本取得修正。
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Publish-Source.yml@v1 # zizmor: ignore[unpinned-uses]
+    with:
+      asset_name: MMLP-CN-to-ZW.zip

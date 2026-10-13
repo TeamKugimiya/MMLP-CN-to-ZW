@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "framedblocks",
+  "external": true,
+  "display_name": {
+    "en": "FramedBlocks"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "441647"
+  },
+  "license": {
+    "spdx": "CC-BY-NC-SA-4.0",
+    "notice": "© CFPA 組織",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "contents": {
+    "tiers": {
+      "1.21": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.21.1",
+          "loader": "neoforge"
+        }
+      }
+    }
+  },
+  "status": {
+    "mod_versions": {
+      "1.21": "FramedBlocks-10.6.2.jar"
+    }
+  }
+}

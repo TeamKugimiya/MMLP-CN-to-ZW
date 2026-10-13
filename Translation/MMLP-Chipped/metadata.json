@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "chipped",
+  "external": true,
+  "display_name": {
+    "en": "Chipped"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "456956"
+  },
+  "license": {
+    "spdx": "CC-BY-NC-SA-4.0",
+    "notice": "© CFPA 組織",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "contents": {
+    "tiers": {
+      "1.19": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.19.2",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "mod_versions": {
+      "1.19": "chipped-forge-1.19.2-2.1.5.jar"
+    }
+  }
+}

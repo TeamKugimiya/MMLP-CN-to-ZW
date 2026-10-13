@@ -1,0 +1,13 @@
+## Ingore ToolKit Settings
+.env
+config/settings.json
+
+## Ignore Binary
+*.jar
+*.zip
+*.exe
+translation-tool*
+
+# Ignore System data or Folder
+output/
+.DS_Store

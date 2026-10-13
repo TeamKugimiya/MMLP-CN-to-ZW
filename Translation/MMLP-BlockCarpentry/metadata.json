@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.2",
+  "mod_id": "blockcarpentry",
+  "external": true,
+  "display_name": {
+    "en": "BlockCarpentry"
+  },
+  "remote": {
+    "primary": "curseforge",
+    "curseforge": "401658"
+  },
+  "license": {
+    "spdx": "CC-BY-NC-SA-4.0",
+    "notice": "© CFPA 組織",
+    "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  },
+  "contents": {
+    "tiers": {
+      "1.19": {
+        "versions": [
+          "<=@latest"
+        ],
+        "source": {
+          "game_version": "1.19.4",
+          "loader": "forge"
+        }
+      }
+    }
+  },
+  "status": {
+    "mod_versions": {
+      "1.19": "BlockCarpentry 1.19.4 (0.1.0.0)"
+    }
+  }
+}
