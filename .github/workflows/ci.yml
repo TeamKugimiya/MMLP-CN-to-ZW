@@ -1,0 +1,110 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+    paths:
+      - ".github/workflows/ci.yml"
+      - "Translation/**"
+      - "config/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    # 組織共用 workflow 依設計追蹤 v1，隨相容版本取得修正。
+    uses: TeamKugimiya/reusable-workflows/.github/workflows/TranslationPack-Validate.yml@v1 # zizmor: ignore[unpinned-uses]
+    with:
+      project_path: .
+    secrets:
+      toolkit_token: ${{ secrets.TOOLKIT_TOKEN }}
+
+  publish:
+    name: 發佈外部來源內容
+    needs: validate
+    if: |
+      github.repository == 'TeamKugimiya/MMLP-CN-to-ZW' &&
+      github.ref == 'refs/heads/main' &&
+      github.event_name != 'pull_request'
+    runs-on: ubuntu-26.04-arm
+    permissions:
+      contents: write
+    concurrency:
+      group: publish-latest
+      cancel-in-progress: false
+    steps:
+      - name: 確認 main 最新提交
+        id: current
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          main_sha=$(gh api "repos/${REPO}/commits/main" --jq .sha)
+          if [ "$main_sha" != "$SHA" ]; then
+            printf '::notice::main 已前進到 %s，略過發佈過期的 %s\n' "$main_sha" "$SHA"
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: ${{ steps.current.outputs.publish == 'true' }}
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: 打包內容目錄
+        if: ${{ steps.current.outputs.publish == 'true' }}
+        run: |
+          set -euo pipefail
+          cd Translation
+          dirs=()
+          while IFS= read -r dir; do
+            dirs+=("$dir")
+          done < <(find . -mindepth 1 -maxdepth 1 -type d -printf '%P\n' | sort)
+          if [ "${#dirs[@]}" -eq 0 ]; then
+            echo "::error::Translation/ 沒有任何內容目錄"
+            exit 1
+          fi
+          zip -q -r -X "${RUNNER_TEMP}/MMLP-CN-to-ZW.zip" "${dirs[@]}"
+          echo "::notice::打包 ${#dirs[@]} 個內容目錄"
+
+      - name: 更新 latest Release
+        if: ${{ steps.current.outputs.publish == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          asset=MMLP-CN-to-ZW.zip
+          next_asset=MMLP-CN-to-ZW.next.zip
+          release=$(gh api "repos/${REPO}/releases/tags/latest")
+          next_id=$(jq -r --arg name "$next_asset" '.assets[] | select(.name == $name) | .id' <<<"$release")
+          if [ -n "$next_id" ]; then
+            gh api -X DELETE "repos/${REPO}/releases/assets/${next_id}"
+          fi
+          cp "${RUNNER_TEMP}/${asset}" "${RUNNER_TEMP}/${next_asset}"
+          gh release upload latest "${RUNNER_TEMP}/${next_asset}" --repo "$REPO"
+
+          release=$(gh api "repos/${REPO}/releases/tags/latest")
+          next_id=$(jq -er --arg name "$next_asset" '.assets[] | select(.name == $name) | .id' <<<"$release")
+          old_id=$(jq -r --arg name "$asset" '.assets[] | select(.name == $name) | .id' <<<"$release")
+          if [ -n "$old_id" ]; then
+            gh api -X DELETE "repos/${REPO}/releases/assets/${old_id}"
+          fi
+          gh api -X PATCH "repos/${REPO}/releases/assets/${next_id}" -f name="$asset" > /dev/null
+          gh api -X PATCH "repos/${REPO}/git/refs/tags/latest" -f sha="$SHA" -F force=true > /dev/null
+          notes="${RUNNER_TEMP}/notes.md"
+          cat > "$notes" <<'EOF'
+          此 Release 提供 translation-toolkit 的外部來源內容 `MMLP-CN-to-ZW.zip`，**不是資源包**，請勿直接放進遊戲。
+
+          ModsTranslationPack 等翻譯包會在驗證與建構前下載它並解壓到 `Translation/`。內容在 main 更新後自動覆蓋，對應的 commit 即 `latest` tag 所指向的 commit。
+          EOF
+          gh release edit latest --repo "$REPO" --notes-file "$notes"
